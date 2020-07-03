@@ -1,0 +1,245 @@
+#btn_menu {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    position: fixed;
+    z-index: 3;
+    width: 10%;
+    margin-top: 2.5%;
+    margin-left: 3%;
+    text-align: center;
+    border-radius: 10%;
+    background: #fc4b1aa8;
+    transition: margin-left 1s;
+}
+
+#btn_menu:checked ~ label {
+    margin-left: 24%;
+}
+
+label img {
+    width: 60%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: rgba(53, 54, 88, 0.836);
+    height: 100%;
+    margin: 0px;
+    padding-top: 7%;
+}
+
+.menu ul li {
+    font-size: 20px;
+    border-top: 2px solid #837673;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 7%;
+    padding-left: 10%;
+}
+
+.menu ul li a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+.subrayado:hover {
+    text-decoration: underline white;
+}
+
+.menubox {
+    width: 30%;
+    height: 1200px;
+    margin-top: -2%;
+    margin-left: -30%;
+    position: fixed;
+    z-index: 3;
+    transition: margin-left 1s;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    z-index: 3; 
+}
+
+#btn_menu:checked ~ .menubox {
+    margin-left: -5%;
+}
+
+@media screen and (max-width:832px) {
+    .menu ul li {
+        font-size: 15px;
+    }
+
+    .menu ul li {
+        padding-left: 5%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    label {
+        width: 100px;
+    }
+
+    .menu ul li {
+        padding-left: 0px;
+    }
+
+    .menubox {
+        width: 40%;
+        margin-left: -50%;
+    }
+
+    #btn_menu:checked ~ label {
+        margin-left: 38%;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .menu ul li {
+        padding-left: 0px;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .menubox {
+        width: 60%;
+        margin-left: -60%;
+    }
+
+    #btn_menu:checked ~ label {
+        margin-left: 55%;
+    }
+    label {
+        width: 70px;
+    }
+}
+
+/*--------------------------------------------------------------------*/
+body {
+    z-index: 2;
+    background: #4abdac;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://live.staticflickr.com/65535/50055483381_d0bfa76265_o.jpg);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 0px;
+    border: 1px solid transparent;
+}
+
+/*---------------------------------------Aqui empiezan el contenido-----------------------*/
+
+section {
+    background: wheat;
+    text-align: left;
+    padding-bottom: 5%;
+    margin-top: 3%;
+    margin-right: 3%;
+    float: right;
+    border: 1px solid transparent;
+    width: 83%;
+    height: auto;
+}
+article {
+    margin: 5%;
+}
+
+article p {
+    text-align: justify;
+}
+
+.dejanos {
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fc4b1a;
+}
+
+/*----------------------------------------------Aside----------------------------------------*/
+
+aside {
+    width: 10%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    outline: none;
+    background: #4abdac;
+}
+
+.redes {
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.redes div {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    border-radius: 10%;
+    padding: 10%;
+    margin-top: 20%;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.redes div:hover {
+    background-color: #fc4b1aa8;
+}
+
+.redes div img {
+    width: 80%;
+    height: auto;
+}
+
+@media screen and (max-width:700px) {
+    section {
+        float: none;
+        width: 98%;
+        margin: 1%;
+    }
+    aside {
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .redes div {
+        display: inline-block;
+        width: auto;
+        padding: 4%;
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    .redes div img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:528px) {
+    .redes div {
+        padding: 2%;
+    }
+    .redes div img {
+        width: 40px;
+    }
+    header {
+        height: 300px;
+        background-image: url(https://live.staticflickr.com/65535/50055483351_680e204b1e_o.jpg);
+    }
+}

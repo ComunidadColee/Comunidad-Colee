@@ -1,0 +1,572 @@
+
+#btn_menu {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    position: fixed;
+    z-index: 3;
+    width: 10%;
+    margin-top: 2.5%;
+    margin-left: 3%;
+    text-align: center;
+    border-radius: 10%;
+    background: rgba(0, 255, 213, 0.568);
+    transition: margin-left 1s;
+}
+
+#btn_menu:checked ~ label {
+    margin-left: 24%;
+}
+
+body {
+    z-index: 2;
+}
+
+label img {
+    width: 60%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: rgba(53, 54, 88, 0.836);
+    height: 100%;
+    margin: 0px;
+    padding-top: 7%;
+}
+
+.menu ul li {
+    font-size: 20px;
+    border-top: 2px solid #837673;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 7%;
+    padding-left: 10%;
+}
+
+.menu ul li a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+.subrayado:hover {
+    text-decoration: underline white;
+}
+
+.menubox {
+    width: 30%;
+    height: 1200px;
+    margin-top: -2%;
+    margin-left: -30%;
+    position: fixed;
+    z-index: 3;
+    transition: margin-left 1s;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    z-index: 3; 
+}
+
+#btn_menu:checked ~ .menubox {
+    margin-left: -5%;
+}
+
+@media screen and (max-width:832px) {
+    .menu ul li {
+        font-size: 15px;
+    }
+
+    .menu ul li {
+        padding-left: 5%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    label {
+        width: 100px;
+    }
+
+    .menu ul li {
+        padding-left: 0px;
+    }
+
+    .menubox {
+        width: 40%;
+        margin-left: -50%;
+    }
+
+    #btn_menu:checked ~ label {
+        margin-left: 38%;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .menu ul li {
+        padding-left: 0px;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .menubox {
+        width: 60%;
+        margin-left: -60%;
+    }
+
+    #btn_menu:checked ~ label {
+        margin-left: 55%;
+    }
+    label {
+        width: 70px;
+    }
+}
+
+/*---------------------------------------Aqui inician los botones-----------------------------------*/
+
+.logo {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    z-index: 3;
+    top: 80%;
+    left: 60%;
+    filter: hue-rotate(320deg);
+}
+
+.contenedor1 {
+    width: 100%;
+    height: 650px;
+    background:#4abdac;
+    overflow: hidden;
+    padding: auto;
+}
+
+.div1 {
+    background-image: url(https://live.staticflickr.com/65535/50055029208_645e30c67d_o.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 73%;
+    height: 600px;
+    position: relative;
+    color: white;
+    clip-path: polygon(0 0, 66.7% 0, 100% 100%, 0 100%);
+    margin: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: left;
+    word-wrap: break-word;
+    padding-right: 7%;
+    cursor: pointer;
+    outline: none;
+    float: left;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 7%;
+    transition: box-shadow 0.5s;
+}
+
+.div2 {
+    background-image: url(https://live.staticflickr.com/65535/50055483776_673392de38_b.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48%;
+    height: 290px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+    padding-left: 6%;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    border-top-right-radius: 7%;
+    transition: box-shadow 0.5s;
+}
+
+.div3 {
+    background-image: url(https://live.staticflickr.com/65535/50055996161_bffcfd3a96_o.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 35.5%;
+    height: 294px;
+    color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 33.33% 100%);
+    position: absolute;
+    top: 318px;
+    right:1%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+    padding-left: 6%;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    border-bottom-right-radius: 7%;
+    transition: box-shadow 0.5s; 
+}
+
+.title1 {
+    font-size: 50px;
+    transition: font-size 0.5s;
+    margin-left: 10%;
+}
+
+.title2, .title3 {
+    font-size: 50px;
+    transition: font-size 0.5s;
+}
+
+.title1:hover {
+    font-size: 53px;
+}
+
+.title2:hover, .title3:hover {
+    font-size: 55px;
+}
+
+.div1:hover {
+    box-shadow: inset 20px 20px 15px #83767393, inset 0px -20px 15px #83767393;
+    padding: auto;
+}
+
+.div2:hover {
+    box-shadow: inset 0px 20px 15px #83767393, inset -20px -20px 15px #83767393;
+}
+
+.div3:hover {
+    box-shadow: inset 0px 20px 15px #83767393, inset -20px -20px 15px #83767393;
+}
+
+@media screen and (max-width:1020px) {
+    .div1 {
+    width: 70%;
+    }
+    .div3 {
+    width:37%;
+    }
+
+    .logo {
+    display: none;
+    }
+}
+
+@media screen and (max-width:755px) {
+    .title1 {
+        font-size: 40px;
+    }
+    .title2, .title3 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .div1 {
+        width: 49%;
+        height: 91%;
+        clip-path: polygon(0 0, 100% 0, 99% 51%, 0 100%);
+        border-bottom-left-radius: 0px;
+    }
+    .div2 {
+        width: 45%;
+        clip-path: polygon(0 0, 99% 0, 99% 100%, 0 100%);
+        margin: none;
+        right: 1%;
+        top: 1%;
+        height: 300px;
+        text-align: right;
+    }
+    .div2:hover {
+        font-size: 29px;
+    }
+    .div3 {
+        width: 97%;
+        background-size: cover;
+        clip-path: polygon(51% 0, 100% 0, 100% 100%, 0 100%);
+        text-align: right;
+    }
+    .title1 {
+        font-size: 27px;
+        font-weight: bolder;
+        margin-left: 1%;
+    }
+    .title1:hover {
+        font-size: 28px;
+    }
+    .title2, .title3 {
+        font-size: 35px;
+    }
+    .title2:hover, .title3:hover {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .div2 {
+        width: 45%;
+        height: 300px;
+    }
+    .title1 {
+        font-size: 21px;
+        font-weight: bolder;
+    }
+    .title1:hover {
+        font-size: 22px;
+    }
+    .title2, .title3 {
+        font-size: 28px;
+    }
+    .title2:hover, .title3:hover {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .div2 {
+        width: 45%;
+        height: 300px;
+    } 
+}
+
+@media screen and (max-width:320px) {
+    .div2 {
+        width: 45%;
+        height: 300px;
+    } 
+}
+
+/*---------------------------------------------Aqui inicia el footer-----------------------------------*/
+
+footer {
+   width: 100%;
+   height: auto;
+   background: #4abdac;
+   padding-top: 3%;
+   overflow: hidden;
+}
+
+.leftbox {
+    width: 39%;
+    float: left;
+    margin-left: 5%;   
+    height: auto;
+}
+
+.bandera {
+    width: 100%;
+}
+
+.textcol {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: larger; 
+    height: auto;
+    width: 100%;
+}
+
+.contenedor2 {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.banderabox {
+    width: 150px;
+    float: left;   
+    height: auto;
+}
+
+.colbox {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.facebook, .instagram, .twiter, .youtube {
+    width: 50px;
+    height: 50px;
+    margin: 4%;
+}
+
+.redes {
+    width: 100%;
+    height: auto;
+}
+
+.leftbox .redes div {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 5%;
+    text-align: center;
+    border-radius: 15%;
+    transition: background-color 0.5s;
+}
+
+.redes div:hover {
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+.rightbox {
+    width: 44%;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    margin-right: 5%; 
+}
+
+.foto {
+    width: 100%;
+}
+
+.fotobox {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+.infoyuyabox {
+    width: 45%;
+    height: auto;
+    float: right;
+    overflow: hidden;
+}
+
+.lista {
+    list-style: url(img/lista.png); 
+}
+
+.infoyuyabox ol li {
+    padding-bottom: 5px;
+    font-size: larger;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.correobox {
+    width: auto;
+    float: left;
+    margin-top: 5%;
+}
+
+.correo, .mail {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: larger;
+    color: black;
+}
+
+.mail {
+    transition: font-size 0.5s;
+}
+
+.mail:hover {
+    color: blue;
+    font-size: 26px;
+    padding: none;
+    margin: none;
+}
+
+@media screen and (max-width:1125px) {
+    .correo, .mail {
+        font-size: 20px;
+    }
+
+    .correobox {
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width:1070px) {
+    .colbox {
+        float: left;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:947px) {
+    .infoyuyabox {
+        float: right;
+        clear: both;
+        width: 70%;
+    }
+
+    .fotobox {
+        margin-top: 0px;
+        float: right;
+    }
+
+    .correobox {
+        float: right;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .infoyuyabox {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width:513px) {
+    .colbox {
+        display: none;
+    }
+
+    .leftbox .contenedor2 .banderabox .bandera {
+        width: 70%;
+    }
+
+    .rightbox .fotobox .foto {
+        width: 60%;
+    }
+
+    .rightbox .fotobox {
+        float: none;
+    }
+
+    .rightbox .infoyuyabox h3 {
+        font-size: 20px;
+    }
+
+    .rightbox .infoyuyabox {
+        width: 100%;
+    }
+
+    .rightbox .infoyuyabox .lista {
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+
+    .leftbox .redes {
+        display: block;
+        width: 50%;
+        margin-top: 40%;
+        margin-left: 20%;
+    }
+
+    .rightbox .correobox .correo {
+        font-size: 15px;
+        text-align: center;
+    }
+}
