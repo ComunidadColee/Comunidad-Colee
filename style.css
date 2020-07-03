@@ -427,11 +427,11 @@ footer {
 }
 
 .rightbox {
-    width: 44%;
-    height: auto;
+    width: 39%;
+    height: 340px;
     float: right;
     overflow: hidden;
-    margin-right: 5%; 
+    margin-right: 5%;
 }
 
 .foto {
@@ -442,31 +442,25 @@ footer {
     width: 200px;
     height: auto;
     float: left;
-    margin-top: 12%;
-    margin-left: 5%;
 }
 
 .infoyuyabox {
-    width: 45%;
-    height: auto;
+    width: 55%;
+    height: 300px;
     float: right;
     overflow: hidden;
 }
 
-.lista {
-    list-style: url(img/lista.png); 
-}
-
-.infoyuyabox ol li {
-    padding-bottom: 5px;
-    font-size: larger;
-    font-family: Helvetica, Arial, sans-serif;
+.infoyuyabox p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 150%;
+    margin-top: 0px;
 }
 
 .correobox {
     width: auto;
     float: left;
-    margin-top: 5%;
 }
 
 .correo, .mail {
@@ -551,11 +545,6 @@ footer {
 
     .rightbox .infoyuyabox {
         width: 100%;
-    }
-
-    .rightbox .infoyuyabox .lista {
-        font-size: 12px;
-        padding-bottom: 0px;
     }
 
     .leftbox .redes {
