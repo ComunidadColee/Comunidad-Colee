@@ -284,6 +284,7 @@ label img {
         clip-path: polygon(0 0, 100% 0, 99% 51%, 0 100%);
         border-bottom-left-radius: 0px;
         background-image: url(https://live.staticflickr.com/65535/50076682946_f15bf902aa_o.jpg);
+        background-size: 100% 100%;
     }
     .div2 {
         width: 45%;
