@@ -279,6 +279,9 @@ aside {
     .titulo {
         font-size: 30px;
     }
+    article img {
+        width: 70%;
+    }
     aside {
         float: none;
         width: 100%;
