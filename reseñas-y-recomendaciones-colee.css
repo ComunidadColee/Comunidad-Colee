@@ -231,6 +231,25 @@ section {
     margin: 2%;
     box-shadow: 5px 5px 10px gray;
     outline: none;
+    z-index: 1;
+}
+
+.etiqueta {
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    width: auto;
+    height: auto;
+    background: #0099ff;
+    position: absolute;
+    margin-top: 1%;
+    z-index: 2;
+}
+
+.etiqueta h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 10px;
 }
 
 .entradas img {

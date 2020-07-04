@@ -137,8 +137,9 @@ label img {
 
 /*-----------------------------------------------------------------------------------*/
 .colee {
-    width: 25%;
-    margin-left: 37.5%;
+    width: 15%;
+    margin-left: 42.5%;
+    margin-top: 3%;
     position: absolute;
 }
 
@@ -146,33 +147,19 @@ label img {
     width: 100%;
 }
 
-section, aside {
+section, aside, footer {
     float: left;
-    margin-top: 20%;
+    margin-top: 15%;
     width: 30%;
-}
-
-.lista h2 {
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    margin-left: 5%;
-}
-
-aside ul li {
-    width: 100%;
 }
 
 section {
     margin-left: 10%;
 }
 
-.foto, .lista {
+.foto {
     width: 70%; 
     margin: 5%;
-}
-
-.foto {
     float: right;
 }
 
@@ -186,21 +173,22 @@ aside {
     margin-left: 3%;
 }
 
-.lista {
+.texto {
     width: 90%;
 }
 
-.lista ul li {
+.texto p {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: larger;
+    font-size: medium;
+    line-height: 20px;
     margin-bottom: 5%;
+    text-align: justify;
 }
 
 footer {
     width: 10%;
-    height: auto;
+    height:auto;
     float: right;
-    margin-top: 17%;
     margin-right: 15%;
     text-align: center;
     outline: none;
@@ -232,37 +220,42 @@ footer {
     height: auto;
 }
 
-@media screen and (max-width:1090px) {
-    section {
-        margin-left: 1%;
+@media screen and (max-width:750px) {
+    footer {
+        margin-right: 5%;
     }
-    .foto {
-        float: none;
+    section {
+        width: 40%;
     }
 }
 
 @media screen and (max-width:650px) {
-    footer {
-        float: left;
-        margin-top: 20%;
-        margin-left: 3%;
-    }
-
-    aside {
-        float: left;
-        width: 40%;
-    }
     .textcorreo h2 {
         font-size: small;
     }
-}
-
-@media screen and (max-width:655px) {
     .colee {
-        width: 40%;
+        width: 20%;
+        margin-left: 40%;
+    }
+    section {
+        clear: both;
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    .foto {
+        width: 90%;
+    }
+    aside {
+        clear: both;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .texto {
+        width: 100%;
     }
     footer {
-        width: 50%;
+        width: 100%;
         margin-top: 10%;
         margin-right: 0px;
         margin-left: 0px;
@@ -282,22 +275,5 @@ footer {
         width: 100%;
         padding: 0px;
         margin: 0px;
-    }
-
-    aside {
-        float: right;
-        margin-right: 3%;
-        margin-top: 25%;
-        width: 40%;
-        font-size: 10px;
-    }
-
-    section {
-        margin-top: 25%;
-        width: 50%;
-    }
-
-    section .foto {
-        float: right;
     }
 }
