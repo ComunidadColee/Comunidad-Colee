@@ -150,11 +150,11 @@ label img {
 }
 
 .div1 {
-    background-image: url(https://live.staticflickr.com/65535/50055029208_645e30c67d_o.jpg);
-    background-size: cover;
+    background-image: url(https://live.staticflickr.com/65535/50073760887_410079252b_z.jpg);
+    background-size: 75% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     width: 73%;
     height: 600px;
     position: relative;
@@ -175,11 +175,11 @@ label img {
 }
 
 .div2 {
-    background-image: url(https://live.staticflickr.com/65535/50055483776_673392de38_b.jpg);
-    background-size: cover;
+    background-image: url(https://live.staticflickr.com/65535/50072822358_f16d42fb6d_z.jpg);
+    background-size: 70% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     width: 48%;
     height: 290px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
@@ -199,8 +199,8 @@ label img {
 }
 
 .div3 {
-    background-image: url(https://live.staticflickr.com/65535/50055996161_bffcfd3a96_o.jpg);
-    background-size: cover;
+    background-image: url(https://live.staticflickr.com/65535/50073638712_b50149d3c7_z.jpg);
+    background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
@@ -243,16 +243,16 @@ label img {
 }
 
 .div1:hover {
-    box-shadow: inset 20px 20px 15px #83767393, inset 0px -20px 15px #83767393;
+    box-shadow: inset 20px 20px 15px #ffffff93, inset 0px -20px 15px #ffffff93;
     padding: auto;
 }
 
 .div2:hover {
-    box-shadow: inset 0px 20px 15px #83767393, inset -20px -20px 15px #83767393;
+    box-shadow: inset 0px 20px 15px #ffffff93, inset -20px -20px 15px #ffffff93;
 }
 
 .div3:hover {
-    box-shadow: inset 0px 20px 15px #83767393, inset -20px -20px 15px #83767393;
+    box-shadow: inset 0px 20px 15px #ffffff93, inset -20px -20px 15px #ffffff93;
 }
 
 @media screen and (max-width:1020px) {
@@ -374,7 +374,7 @@ footer {
 }
 
 .textcol {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger; 
     height: auto;
     width: 100%;
@@ -402,9 +402,9 @@ footer {
 }
 
 .facebook, .instagram, .twiter, .youtube {
-    width: 50px;
-    height: 50px;
-    margin: 4%;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
 }
 
 .redes {
@@ -426,45 +426,52 @@ footer {
     background-color: rgba(255, 255, 255, 0.726);
 }
 
+.correobox2 {
+    display: none;
+}
+
 .rightbox {
     width: 39%;
-    height: 340px;
+    height: auto;
     float: right;
     overflow: hidden;
-    margin-right: 5%;
+    margin-right: 5%;       
 }
 
 .foto {
-    width: 100%;
+    width: 100%;        
 }
 
 .fotobox {
     width: 200px;
     height: auto;
-    float: left;
+    float: left;        
 }
 
 .infoyuyabox {
     width: 55%;
-    height: 300px;
+    height: auto;
     float: right;
-    overflow: hidden;
+    overflow: hidden;       
 }
 
 .infoyuyabox p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
     line-height: 150%;
     margin-top: 0px;
+    font-size: medium;      
 }
 
-.correobox {
+.correobox, .correobox2 {
     width: auto;
     float: left;
+    clear: left;
+    margin-top: 0px;        
 }
 
 .correo, .mail {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
     color: black;
 }
@@ -485,8 +492,12 @@ footer {
         font-size: 20px;
     }
 
-    .correobox {
+    .correobox, .correobox2 {
         word-wrap: break-word;
+    }
+    .infoyuyabox {
+        width: 100%;
+        float: none;
     }
 }
 
@@ -498,27 +509,17 @@ footer {
 }
 
 @media screen and (max-width:947px) {
-    .infoyuyabox {
-        float: right;
-        clear: both;
-        width: 70%;
-    }
-
     .fotobox {
         margin-top: 0px;
-        float: right;
-    }
-
-    .correobox {
-        float: right;
-        margin: 0px;
     }
 }
 
-@media screen and (max-width:670px) {
-    .infoyuyabox {
-        width: 100%;
-        float: none;
+@media screen and (max-width:611px) {
+    .correobox2 {
+        display: inline;
+    }
+    .correobox {
+        display: none;
     }
 }
 
@@ -539,14 +540,6 @@ footer {
         float: none;
     }
 
-    .rightbox .infoyuyabox h3 {
-        font-size: 20px;
-    }
-
-    .rightbox .infoyuyabox {
-        width: 100%;
-    }
-
     .leftbox .redes {
         display: block;
         width: 50%;
@@ -554,8 +547,4 @@ footer {
         margin-left: 20%;
     }
 
-    .rightbox .correobox .correo {
-        font-size: 15px;
-        text-align: center;
-    }
 }
