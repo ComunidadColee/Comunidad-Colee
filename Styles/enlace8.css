@@ -11,12 +11,16 @@ label {
     margin-left: 3%;
     text-align: center;
     border-radius: 10%;
-    background: #fc4b1aa8;
+    background: rgba(255, 255, 255, 0.671);
     transition: margin-left 1s;
 }
 
 #btn_menu:checked ~ label {
     margin-left: 24%;
+}
+
+body {
+    z-index: 2;
 }
 
 label img {
@@ -124,7 +128,6 @@ label img {
     }
 }
 
-/*--------------------------------------------------------------------*/
 body {
     z-index: 2;
     background: #4abdac;
@@ -132,9 +135,9 @@ body {
 }
 
 header {
-    width: 100%;
+    width: auto;
     height: 400px;
-    background-image: url(https://live.staticflickr.com/65535/50055483381_d0bfa76265_o.jpg);
+    /*background-image: url();*/
     background-size: 100% 80%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -145,7 +148,7 @@ header {
 /*---------------------------------------Aqui empiezan el contenido-----------------------*/
 
 section {
-    background: wheat;
+    background: white;
     text-align: left;
     padding-bottom: 5%;
     margin-top: 3%;
@@ -155,18 +158,47 @@ section {
     width: 83%;
     height: auto;
 }
+
 article {
     margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 5px 5px 7px gray;
 }
 
 article p {
     text-align: justify;
+    line-height: 25px;
+    font-size: large;
+    margin-top: 4%;
+}
+
+article div {
+    text-align: center;
+}
+
+article img {
+    width: 50%;
+    margin: 5%;
 }
 
 .dejanos {
     margin-left: 5%;
+    margin-top: 10%;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fc4b1a;
+    color: black;
+}
+
+h5 {
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*----------------------------------------------Aside----------------------------------------*/
@@ -199,7 +231,7 @@ aside {
 }
 
 .redes div:hover {
-    background-color: #fc4b1aa8;
+    background-color: rgba(255, 255, 255, 0.493);
 }
 
 .redes div img {
@@ -212,6 +244,12 @@ aside {
         float: none;
         width: 98%;
         margin: 1%;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+    article img {
+        width: 70%;
     }
     aside {
         float: none;
@@ -240,6 +278,6 @@ aside {
     }
     header {
         height: 300px;
-        background-image: url(https://live.staticflickr.com/65535/50055483351_680e204b1e_o.jpg);
+        /*background-image: url();*/
     }
 }
