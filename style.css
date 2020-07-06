@@ -349,8 +349,8 @@ label img {
         width: 45%;
         height: 300px;
     }
-    .title1 {
-        font-size: 20px;
+    .title1,.title2, .title3 {
+        font-size: 17px;
         line-height: 30px;
         font-weight: bold;
     }
@@ -502,13 +502,15 @@ footer {
     .correo, .mail {
         font-size: 20px;
     }
-
     .correobox, .correobox2 {
         word-wrap: break-word;
     }
     .infoyuyabox {
         width: 100%;
         float: none;
+    }
+    .fotobox {
+        margin-bottom: 7%;
     }
 }
 
