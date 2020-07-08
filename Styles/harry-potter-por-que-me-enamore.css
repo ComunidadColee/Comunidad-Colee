@@ -301,5 +301,6 @@ aside {
     header {
         height: 250px;
         background-image: url(https://live.staticflickr.com/65535/50063536712_c996e6e11f_o.jpg);
+        background-size: 100% 50%;
     }
 }

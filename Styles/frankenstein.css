@@ -292,6 +292,9 @@ aside {
         margin: 0px;
         padding: 0px;
     }
+    .video {
+        margin-bottom: 20%;
+    }
     .redes div {
         display: inline-block;
         width: auto;
@@ -313,11 +316,13 @@ aside {
     }
     header {
         height: 300px;
-        /*background-image: url();*/
+        background-image: url(https://live.staticflickr.com/65535/50088046748_499ec619c0_o.jpg);
+        background-size: 100% 50%;
     }
     .video {
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 30%;
         width: 100%;
         height: 200px;
     }
