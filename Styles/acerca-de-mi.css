@@ -178,11 +178,27 @@ aside {
 }
 
 .texto p {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
     line-height: 20px;
     margin-bottom: 5%;
     text-align: justify;
+}
+
+.reglas {
+    margin-top: 10%;
+    font-size: larger;
+    text-align: left;
+}
+
+ul li {
+    margin-bottom: 5%;
+    list-style: decimal;
+}
+
+.correo {
+    margin-top: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {
@@ -227,6 +243,10 @@ footer {
     section {
         width: 40%;
     }
+    .reglas {
+        font-size: medium;
+    }
+
 }
 
 @media screen and (max-width:650px) {
