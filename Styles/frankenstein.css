@@ -317,7 +317,7 @@ aside {
     header {
         height: 300px;
         background-image: url(https://live.staticflickr.com/65535/50088046748_499ec619c0_o.jpg);
-        background-size: 100% 50%;
+        background-clip: padding-box;
     }
     .video {
         margin-left: auto;
