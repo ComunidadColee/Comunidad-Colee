@@ -1,14 +1,12 @@
 body {
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
 header {
     width: auto;
-    height: 320px;
-    background-image: url(https://live.staticflickr.com/65535/50054906013_3fb3f3c4a7_o.jpg);
-    background-size: 100% 100%;
+    height: 330px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 0px;
@@ -16,40 +14,30 @@ header {
 }
 
 .titulo {
-    width: 99%;
-    height: 320px;
     word-wrap: break-word;
     position: absolute; /*ponerle absolute a cada titulo para que la barra se posisione bien*/
-    font-size: 400%;
-    top: 0px;
-    color: white;
-    background: rgba(133, 82, 82, 0.295);
     text-align: center;
+    width: 100%;
+    height: auto;
+    top: 50px;
+    color:white;
 }
 
-@media screen and (max-width:850px) {
-    header {
-        background-image: url(https://live.staticflickr.com/65535/50055483616_0f01663425_o.jpg);
-        height: 220px;
+.titulo h1 {
+    vertical-align: middle;
+    font-size: 450%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width:700px) {
+    .titulo h1 {
+        font-size: 250%;
     }
     .titulo {
-        font-size: 200%;
-        height: 220px;
+        top:70px;
     }
-}
-
-@media screen and (max-width:480px) {
     header {
-        background-image: url(https://live.staticflickr.com/65535/50055483561_4366fb9b6a_o.jpg);
-        height: 220px;
-    }
-}
-
-@media screen and (max-width:380px) {
-    .titulo {
-        font-size: 150%;
-        height: 170px;
-        padding-top: 50px;
+        height: 250px;
     }
 }
 
@@ -65,7 +53,6 @@ section div a {
     outline: none;
 }
 
-
 .buscador {
     width: 40%;
     height: 30px;
@@ -80,7 +67,6 @@ section div a {
     border-bottom: 2px solid white;
     color: black;
 }
-
 
 .entradasbox {
     text-align: center;
@@ -98,12 +84,31 @@ section div a {
 
 .entradas {
     width: 250px;
-    height: 470px;
+    height: 460px;
     background: white;
     display: inline-block;
     margin: 2%;
     box-shadow: 5px 5px 10px gray;
     outline: none;
+    z-index: 1;
+}
+
+.etiqueta {
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    width: auto;
+    height: auto;
+    background: #0099ff;
+    position: absolute;
+    margin-top: 1%;
+    z-index: 2;
+}
+
+.etiqueta h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 10px;
 }
 
 .entradas img {
@@ -145,7 +150,6 @@ section div a {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    line-height: 20px;
 }
 
 .entradas p:hover {
@@ -179,7 +183,6 @@ section div a {
     .entradas p {
         word-wrap: break-word;
         overflow: hidden;
-        font-size: 11px;
     }
 }
 
@@ -188,10 +191,12 @@ section div a {
         width: 140px;
         margin: 1%;
     }
+
     .entradas h1 {
         font-size: medium;
         font-weight: bold;
     }
+
     .entradas img {
         width: 100%;
         height: 150px;
@@ -222,7 +227,7 @@ footer {
      height: auto;
      width: 100%;
      margin: 0px;
-     color: #22221b;
+     color: black;
      text-align: center;
  }
  
@@ -259,7 +264,7 @@ footer {
     }
     
     .redes div:hover {
-        background-color: #4abdac;
+        background-color: rgba(0, 255, 213, 0.568);
     }
  
  .rightbox {
@@ -275,14 +280,13 @@ footer {
      float: right;
      margin-right: 2%;
  }
- 
+
  @media screen and (max-width:1070px) {
      .colbox {
          float: left;
          margin-top: 0px;
      }
  }
-
  
  @media screen and (max-width:513px) {
     .leftbox {
@@ -318,6 +322,7 @@ footer {
          float: left;
          clear: both;
      }
+
      .leftbox .redes div {
          width: 13%;
          height: 10%;

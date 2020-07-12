@@ -126,6 +126,9 @@
     .div1 {
     width: 70%;
     }
+    .div2 {
+    top: 10px;
+    }
     .div3 {
     width:37%;
     }
@@ -139,29 +142,38 @@
     .title1 {
         font-size: 40px;
     }
+    .div2 {
+        top: 8px;
+        }
     .title2, .title3 {
         font-size: 40px;
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:720px) {
     .div1 {
-        width: 49%;
-        height: 91%;
-        clip-path: polygon(0 0, 100% 0, 99% 51%, 0 100%);
+        width: 97%;
+        height: 225px;
+        right: 1%;
+        left: 1%;
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
         border-bottom-left-radius: 0px;
         background-image: url(https://live.staticflickr.com/65535/50076682946_f15bf902aa_o.jpg);
-        background-size: 100% 100%;
+        background-size: contain;
+        background-position: top;
     }
     .div2 {
-        width: 45%;
-        clip-path: polygon(0 0, 99% 0, 99% 100%, 0 100%);
-        background-image: url(https://live.staticflickr.com/65535/50076460267_0b52b900e5_z.jpg);
-        background-size: cover;
-        margin: none;
+        width: 97%;
+        height: 225px;
         right: 1%;
-        top: 1%;
-        height: 300px;
+        left: 2%;
+        top: 125px;
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 50%);
+        /*background-image: url(https://live.staticflickr.com/65535/50076460267_0b52b900e5_z.jpg);*/
+        background-size: 100% 70%;
+        background-position: top;
+        border-top-right-radius: 0px;
+        margin: none;
         text-align: right;
     }
     .div2:hover {
@@ -169,10 +181,14 @@
     }
     .div3 {
         width: 97%;
+        height: 200px;
+        top: 360px;
         background-image: url(https://live.staticflickr.com/65535/50076460532_530c0f64f9_z.jpg);
         background-position: bottom;
         background-size: cover;
-        clip-path: polygon(51% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: none;
+        border-bottom-left-radius: 7%;
+        border-bottom-right-radius: 7%;
         text-align: right;
     }
     .title1 {
@@ -189,45 +205,33 @@
     .title2:hover, .title3:hover {
         font-size: 38px;
     }
+    .title3 {
+        text-align: left;
+    }
+}
+
+
+@media screen and (max-width:470px) {
+    .div2 {
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 @media screen and (max-width:420px) {
-    .div2 {
-        width: 45%;
-        height: 300px;
-    }
     .title1 {
-        font-size: 21px;
+        font-size: 19px;
         font-weight: bolder;
     }
     .title1:hover {
-        font-size: 22px;
+        font-size: 21px;
     }
     .title2, .title3 {
-        font-size: 28px;
+        font-size: 25px;
     }
     .title2:hover, .title3:hover {
-        font-size: 30px;
+        font-size: 27px;
     }
-}
-
-@media screen and (max-width:380px) {
-    .div2 {
-        width: 45%;
-        height: 300px;
-    }
-    .title1,.title2, .title3 {
-        font-size: 17px;
-        line-height: 30px;
-        font-weight: bold;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .div2 {
-        width: 45%;
-        height: 300px;
-    } 
 }
 
 /*---------------------------------------------Aqui inicia el footer-----------------------------------*/
