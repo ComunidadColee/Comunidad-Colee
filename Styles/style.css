@@ -159,7 +159,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
         border-bottom-left-radius: 0px;
         background-image: url(https://live.staticflickr.com/65535/50076682946_f15bf902aa_o.jpg);
-        background-size: contain;
+        background-size: cover;
         background-position: top;
     }
     .div2 {
@@ -210,11 +210,9 @@
     }
 }
 
-
 @media screen and (max-width:470px) {
     .div2 {
-        background-size: cover;
-        background-position: center;
+        background-image: url(../img/50072822358_c88ce6e6dd_o.jpg);
     }
 }
 

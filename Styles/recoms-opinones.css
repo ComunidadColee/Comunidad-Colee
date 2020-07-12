@@ -31,13 +31,13 @@ header {
 
 @media screen and (max-width:700px) {
     .titulo h1 {
-        font-size: 250%;
+        font-size: 200%;
     }
     .titulo {
-        top:70px;
+        top:50px;
     }
     header {
-        height: 250px;
+        height: 200px;
     }
 }
 
