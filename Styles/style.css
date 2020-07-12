@@ -169,7 +169,7 @@
         left: 2%;
         top: 125px;
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 50%);
-        background-size: 100% 70%;
+        background-size: cover;
         background-position: center;
         border-top-right-radius: 0px;
         margin: none;
