@@ -169,9 +169,8 @@
         left: 2%;
         top: 125px;
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 50%);
-        /*background-image: url(https://live.staticflickr.com/65535/50076460267_0b52b900e5_z.jpg);*/
         background-size: 100% 70%;
-        background-position: top;
+        background-position: center;
         border-top-right-radius: 0px;
         margin: none;
         text-align: right;

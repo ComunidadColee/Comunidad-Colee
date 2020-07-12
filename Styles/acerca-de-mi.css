@@ -25,12 +25,14 @@ section, aside, footer {
 
 section {
     margin-left: 10%;
+    border: 1px solid blue;
 }
 
 .foto {
     width: 70%; 
     margin: 5%;
     float: right;
+    border: 1px solid blue;
 }
 
 .foto img {
@@ -71,30 +73,24 @@ aside {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-footer {
-    width: 10%;
-    height:auto;
-    float: right;
-    margin-right: 15%;
-    text-align: center;
-    outline: none;
-}
-
 .redes {
-    width: 90%;
+    width: auto;
     height: auto;
     text-align: center;
+    clear: both;
+    border: 1px solid blue;
 }
 
 .redes div {
-    width: 30%;
+    border: 1px solid blue;
+    width: 10%;
     height: auto;
     text-align: center;
     border-radius: 10%;
-    padding: 10%;
-    margin-top: 20%;
+    margin-left: 5%;
     cursor: pointer;
-    transition: background-color 0.5s;
+    display: inline-block;
+    transition: background-color 0.2s;
 }
 
 .redes div:hover {
