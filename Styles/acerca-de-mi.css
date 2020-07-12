@@ -5,9 +5,8 @@ body {
     background: #4abdac;
 }
 
-/*-----------------------------------------------------------------------------------*/
 .colee {
-    width: 15%;
+    width: 200px;
     margin-left: 42.5%;
     margin-top: 3%;
     position: absolute;
@@ -20,14 +19,19 @@ body {
 aside {
     float: left;
     margin-top: 15%;
-    width: 30%;
+    width: 40%;
 }
 
 section {
     float: left;
     margin-left: 25%;
-    margin-top: 15%;
-    width: 15%;
+    margin-top: 17%;
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    display: none;
 }
 
 .foto {
@@ -102,31 +106,53 @@ aside {
     height: auto;
 }
 
-@media screen and (max-width:750px) {
-    footer {
-        margin-right: 5%;
+@media screen and (max-width:1000px) {
+    aside {
+        width: 50%;
     }
-    section {
-        width: 40%;
-    }
+}
+
+@media screen and (max-width:950px) {
     .reglas {
         font-size: medium;
     }
+    section {
+        margin-left: 15%;
+    }
+    .colee {
+        width: 150px;
+    }
+}
 
+@media screen and (max-width:620px) {
+    section {
+        margin-top: 30%;
+    }
 }
 
 @media screen and (max-width:650px) {
+    .redesuno {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
+    .redesdos div {
+        width: 1%;
+        margin: 0px;
+    }
     .textcorreo h2 {
         font-size: small;
     }
     .colee {
-        width: 20%;
-        margin-left: 40%;
+        margin-left: 34.62%;
+        width: 35%;
     }
     section {
         clear: both;
-        margin-top: 20%;
-        margin-left: 30%;
+        margin-top: 30%;
+        margin-left: 34.62%;
+        width: 33.33%;
     }
     .foto {
         width: 90%;
@@ -135,7 +161,7 @@ aside {
         clear: both;
         width: 90%;
         margin-left: 5%;
-        margin-top: 4%;
+        margin-top: 2%;
     }
     .texto {
         width: 100%;

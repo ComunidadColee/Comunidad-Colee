@@ -54,18 +54,33 @@ section div a {
 }
 
 .buscador {
-    width: 40%;
-    height: 30px;
-    margin-top: 5%;
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    outline: none;
-    background: #ffffff7a;
-    border: none;
-    border-radius: 5%;
-    border-bottom: 2px solid white;
+    height: 35px;
+    border: 0;
     color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 40%;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.658);
+    outline: none;
+    margin-top: 3%;
+    margin-left: 15%;
+    padding-left: 2%;   
+}
+
+
+#lupa {
+    border: 0;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    background: url(../img/pngocean.com.png) no-repeat;
+    background-color: transparent;
+    background-position: center;
+    margin-right: 10%;
+    margin-bottom: 1px;
+    cursor: pointer;
+    outline: none;
 }
 
 .entradasbox {
@@ -94,8 +109,8 @@ section div a {
 }
 
 .etiqueta {
-    border-top-right-radius: 25%;
-    border-bottom-right-radius: 25%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     width: auto;
     height: auto;
     background: #0099ff;
@@ -166,7 +181,6 @@ section div a {
 
 @media screen and (max-width:800px){
 .buscador {
-    width: 80%;
     font-size: 80%;
     }
 }
@@ -183,6 +197,9 @@ section div a {
     .entradas p {
         word-wrap: break-word;
         overflow: hidden;
+    }
+    .buscador {
+        margin-top: 5%;
     }
 }
 

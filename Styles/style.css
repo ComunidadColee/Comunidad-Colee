@@ -158,6 +158,7 @@
         left: 1%;
         clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
         border-bottom-left-radius: 0px;
+        border-top-right-radius: 7%;
         background-image: url(https://live.staticflickr.com/65535/50076682946_f15bf902aa_o.jpg);
         background-size: cover;
         background-position: top;
@@ -190,6 +191,18 @@
         border-bottom-right-radius: 7%;
         text-align: right;
     }
+    .div1:hover {
+        box-shadow: inset 0px 20px 15px #ffffff93;
+        padding: auto;
+    }
+    
+    .div2:hover {
+        box-shadow: inset 0px -20px 15px #ffffff93;
+    }
+    
+    .div3:hover {
+        box-shadow: inset 0px -20px 15px #ffffff93;
+    }
     .title1 {
         font-size: 27px;
         font-weight: bolder;
@@ -211,7 +224,7 @@
 
 @media screen and (max-width:470px) {
     .div2 {
-        background-image: url(../img/50072822358_c88ce6e6dd_o.jpg);
+        background-image: url(https://live.staticflickr.com/65535/50106178036_0a72b4ee8c_o.jpg);
     }
 }
 
