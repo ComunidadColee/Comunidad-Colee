@@ -137,6 +137,10 @@ aside {
     footer {
         display: block;
     }
+    .redesdos {
+        width: auto;
+        padding: 0px;
+    }
     .redesdos div {
         width: 1%;
         margin: 0px;
@@ -145,13 +149,13 @@ aside {
         font-size: small;
     }
     .colee {
-        margin-left: 34.62%;
+        margin-left: 33%;
         width: 35%;
     }
     section {
         clear: both;
         margin-top: 30%;
-        margin-left: 34.62%;
+        margin-left: 33%;
         width: 33.33%;
     }
     .foto {
@@ -159,18 +163,19 @@ aside {
     }
     aside {
         clear: both;
-        width: 90%;
-        margin-left: 5%;
+        width: auto;
+        margin-left: 3%;
+        margin-right: 3%;
         margin-top: 2%;
     }
     .texto {
         width: 100%;
     }
     footer {
-        width: 100%;
+        width: auto;
         margin-top: 10%;
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-left: 3%;
+        margin-right: 3%;
         float: left;
     }
     .redes {
