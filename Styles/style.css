@@ -189,6 +189,7 @@
         background-size: cover;
         background-clip: padding-box;
         background-origin: content-box;
+        background-repeat: repeat-y;
         clip-path: none;
         border-bottom-left-radius: 7%;
         border-bottom-right-radius: 7%;
