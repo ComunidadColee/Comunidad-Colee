@@ -9,7 +9,7 @@ header {
     color: red;
 }
 
-ul li {
+.lista li {
     line-height: 40px;
     font-size: large;
 }
