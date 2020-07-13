@@ -185,7 +185,7 @@
         height: 200px;
         top: 360px;
         background-image: url(https://live.staticflickr.com/65535/50108311898_0648041224_o.jpg);
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
         clip-path: none;
         border-bottom-left-radius: 7%;
