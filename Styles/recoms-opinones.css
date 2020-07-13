@@ -1,151 +1,12 @@
 body {
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-}
-
-
-#btn_menu {
-    display: none;
-}
-
-label {
-    cursor: pointer;
-    position: fixed;
-    z-index: 3;
-    width: 10%;
-    margin-top: 2.5%;
-    margin-left: 3%;
-    text-align: center;
-    border-radius: 10%;
-    background: rgba(255, 255, 255, 0.733);
-    transition: margin-left 1s;
-}
-
-#btn_menu:checked ~ label {
-    margin-left: 24%;
-}
-
-body {
-    z-index: 2;
-}
-
-label img {
-    width: 60%;
-}
-
-.menu ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    background: rgba(53, 54, 88, 0.836);
-    height: 100%;
-    margin: 0px;
-    padding-top: 7%;
-}
-
-.menu ul li {
-    font-size: 20px;
-    border-top: 2px solid #837673;
-    padding-top: 7%;
-    padding-bottom: 7%;
-    padding-right: 7%;
-    padding-left: 10%;
-}
-
-.menu ul li a {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    color: rgb(241, 241, 241);
-    text-decoration: none;
-}
-
-.subrayado:hover {
-    text-decoration: underline white;
-}
-
-.menubox {
-    width: 30%;
-    height: 1200px;
-    margin-top: -2%;
-    margin-left: -30%;
-    position: fixed;
-    z-index: 3;
-    transition: margin-left 1s;
-}
-
-.menu {
-    width: 100%;
-    height: 100%;
-    z-index: 3; 
-}
-
-#btn_menu:checked ~ .menubox {
-    margin-left: -5%;
-}
-
-@media screen and (max-width:832px) {
-    .menu ul li {
-        font-size: 15px;
-    }
-
-    .menu ul li {
-        padding-left: 5%;
-        padding-top: 15%;
-        padding-bottom: 15%;
-    }
-}
-
-@media screen and (max-width:700px) {
-    label {
-        width: 100px;
-    }
-
-    .menu ul li {
-        padding-left: 0px;
-    }
-
-    .menubox {
-        width: 40%;
-        margin-left: -50%;
-    }
-
-    #btn_menu:checked ~ label {
-        margin-left: 38%;
-    }
-}
-
-@media screen and (max-width:470px) {
-    .menu ul li {
-        padding-left: 0px;
-        padding-top: 20%;
-        padding-bottom: 20%;
-    }
-
-    .menubox {
-        width: 60%;
-        margin-left: -60%;
-    }
-
-    #btn_menu:checked ~ label {
-        margin-left: 55%;
-    }
-    label {
-        width: 70px;
-    }
-}
-
-/*---------------------------------------Aqui empieza el header-----------------------*/
-
-body {
-    padding: 0px;
 }
 
 header {
     width: auto;
-    height: 400px;
-    background-image: url(https://live.staticflickr.com/65535/50055029208_645e30c67d_o.jpg);
-    background-size: cover;
+    height: 330px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-top: 0px;
@@ -153,36 +14,30 @@ header {
 }
 
 .titulo {
-    width: 99%;
     word-wrap: break-word;
     position: absolute; /*ponerle absolute a cada titulo para que la barra se posisione bien*/
-    font-size:300%;
-    top: 8%;
     text-align: center;
-    color: white;
+    width: 100%;
+    height: auto;
+    top: 50px;
+    color:white;
 }
 
-@media screen and (max-width:750px) {
-    .titulo {
+.titulo h1 {
+    vertical-align: middle;
+    font-size: 450%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width:700px) {
+    .titulo h1 {
         font-size: 200%;
     }
-}
-
-@media screen and (max-width:500px) {
     .titulo {
-        font-size: 150%;
+        top:50px;
     }
     header {
-        height: 300px;
-    }
-}
-
-@media screen and (max-width:380px) {
-    .titulo {
-        font-size: 110%;
-    }
-    header {
-        height: 250px;
+        height: 200px;
     }
 }
 
@@ -194,19 +49,38 @@ section {
     padding-bottom: 5%;
 }
 
-.buscador {
-    width: 40%;
-    height: 30px;
-    margin-top: 5%;
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
+section div a {
     outline: none;
-    background: #ffffff7a;
-    border: none;
-    border-radius: 5%;
-    border-bottom: 2px solid white;
+}
+
+.buscador {
+    height: 35px;
+    border: 0;
     color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 40%;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.658);
+    outline: none;
+    margin-top: 3%;
+    margin-left: 15%;
+    padding-left: 2%;   
+}
+
+
+#lupa {
+    border: 0;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    background: url(../img/pngocean.com.png) no-repeat;
+    background-color: transparent;
+    background-position: center;
+    margin-right: 10%;
+    margin-bottom: 1px;
+    cursor: pointer;
+    outline: none;
 }
 
 .entradasbox {
@@ -231,6 +105,25 @@ section {
     margin: 2%;
     box-shadow: 5px 5px 10px gray;
     outline: none;
+    z-index: 1;
+}
+
+.etiqueta {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: auto;
+    height: auto;
+    background: #0099ff;
+    position: absolute;
+    margin-top: 1%;
+    z-index: 2;
+}
+
+.etiqueta h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 10px;
 }
 
 .entradas img {
@@ -271,6 +164,7 @@ section {
     word-wrap: break-word;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 .entradas p:hover {
@@ -287,7 +181,6 @@ section {
 
 @media screen and (max-width:800px){
 .buscador {
-    width: 80%;
     font-size: 80%;
     }
 }
@@ -304,6 +197,11 @@ section {
     .entradas p {
         word-wrap: break-word;
         overflow: hidden;
+    }
+    .buscador {
+        margin-top: 5%;
+        width: 65%;
+        margin-left: 1%;
     }
 }
 
@@ -408,7 +306,6 @@ footer {
          margin-top: 0px;
      }
  }
- 
  
  @media screen and (max-width:513px) {
     .leftbox {

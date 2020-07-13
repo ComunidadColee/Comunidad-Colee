@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #4abdac;
+}
+
+.colee {
+    width: 200px;
+    margin-left: 42.5%;
+    margin-top: 3%;
+    position: absolute;
+}
+
+.colee img {
+    width: 100%;
+}
+
+aside {
+    float: left;
+    margin-top: 15%;
+    width: 40%;
+}
+
+section {
+    float: left;
+    margin-left: 25%;
+    margin-top: 17%;
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    display: none;
+}
+
+.foto {
+    width: 100%;
+    float: right;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    float: left;
+    margin-left: 3%;
+}
+
+.texto {
+    width: 90%;
+}
+
+.texto p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    line-height: 20px;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.reglas {
+    margin-top: 10%;
+    font-size: larger;
+    text-align: left;
+}
+
+.reglas li {
+    margin-bottom: 5%;
+    list-style: decimal;
+}
+
+.correo {
+    margin-top: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.redes {
+    width: auto;
+    height: auto;
+    text-align: center;
+    clear: both;
+    padding-right: 5%;
+}
+
+.redes div {
+    width: 18%;
+    height: auto;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-left: 5%;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.redes div:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.redes div img {
+    width: 90%;
+    height: auto;
+}
+
+@media screen and (max-width:1000px) {
+    aside {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .reglas {
+        font-size: medium;
+    }
+    section {
+        margin-left: 15%;
+    }
+    .colee {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    section {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .redesuno {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
+    .redesdos {
+        width: auto;
+        padding: 0px;
+    }
+    .redesdos div {
+        width: 1%;
+        margin: 0px;
+    }
+    .textcorreo h2 {
+        font-size: small;
+    }
+    .colee {
+        margin-left: 33%;
+        width: 35%;
+    }
+    section {
+        clear: both;
+        margin-top: 30%;
+        margin-left: 33%;
+        width: 33.33%;
+    }
+    .foto {
+        width: 90%;
+    }
+    aside {
+        clear: both;
+        width: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 2%;
+    }
+    .texto {
+        width: 100%;
+    }
+    footer {
+        width: auto;
+        margin-top: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
+        float: left;
+    }
+    .redes {
+        width:100%;
+    }
+    .redes div {
+        width: 15%;
+        display: inline-block;
+        padding: 0px;
+        margin-top: 0px;
+        margin-right: 5%;
+    }
+    .redes div img {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+}

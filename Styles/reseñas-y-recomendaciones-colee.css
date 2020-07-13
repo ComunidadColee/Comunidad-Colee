@@ -1,0 +1,11 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50055029208_645e30c67d_o.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width:600px) {
+    section .entradasbox .descartes p {
+        word-wrap: break-word;
+        font-size: 13px;
+    }
+}

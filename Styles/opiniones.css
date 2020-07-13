@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(https://live.staticflickr.com/65535/50105786377_6259be27b2_o.png);
+    background-size: 100% 60%;
+}
+
+@media screen and (max-width:850px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50105758502_94061fbcd8_o.png);
+    }
+}
+
+@media screen and (max-width:600px) {
+    section .entradasbox .murakami p {
+        word-wrap: break-word;
+        font-size: 13.5px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50105757957_0f59afc334_o.png);
+        background-size: 100% 100%;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header {
+        height: 250px;
+    }
+}
+ 
+
+
+ 

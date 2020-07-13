@@ -6,8 +6,10 @@
     <meta name="keywords" content="Colee, blog, Colombia lee, literatura juvenil, contenido, libros recomendados">
     <meta name="description" content="contenido de literatura juvenil, opiniones y recomendaciones de libros">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reseñas-y-recomendaciones-colee.css">
-    <link rel="stylesheet" href="Normalize/normalize.css">
+    <link rel="stylesheet" href="Styles/reseñas-y-recomendaciones-colee.css">
+    <link rel="stylesheet" href="Styles/recoms-opinones.css">
+    <link rel="stylesheet" href="Styles/normalize.css">
+    <link rel="stylesheet" href="Styles/barra-de-navegacion.css">
     <link rel="shortcut icon" href="img/favicon.jpeg" type="image/x-icon">
     <title>Recomendaciones CoLee</title>
 </head>
@@ -30,32 +32,14 @@
                 </div> 
     </header> 
     <section>
-        <input class="buscador"  type="text" placeholder="Busca por palabas clave" autofocus>
+        <input class="buscador" type="search" placeholder="Busca por palabas clave" autofocus>
+        <input type="submit" id="lupa" value="">
         <div class="entradasbox">
-            <a href="harry-potter-por-que-me-enamore.html">
+            <a href="reseñas-y-recomendaciones-colee/enlace3.html">
                 <div class="entradas">
-                    <img src="https://live.staticflickr.com/65535/50063008606_04b867191d_o.jpg" title="Hawards Harry Potter" alt="Hawards Harry Potter">
-                    <h1>
-                        De por qué me enamoré de Harry Potter
-                    </h1>
-                    <p>
-                        La saga de HP tiene metáforas sociales, moralejas, un mundo mágico en el que todos quisiéramos vivir, arquetipos y mucho más.
-                    </p>
-                </div>
-            </a>
-            <a href="enlace2.html">
-                <div class="entradas">
-                    <img src="https://live.staticflickr.com/65535/50054905288_e963f176a0_o.jpg" alt="Sinsajo">
-                    <h1>
-                        Los Juegos del Hambre sin Jennifer Lawrence
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi earum eligendi amet! Porro sed voluptate inventore blanditiis
-                    </p>
-                </div>
-            </a>
-            <a href="enlace3.html">
-                <div class="entradas">
+                    <div class="etiqueta">
+                        <h3>Reseña</h3>
+                    </div>
                     <img src="https://live.staticflickr.com/65535/50054905348_ab8f54e262_o.jpg" alt="plataforma 9-3/4 de Harry Potter">
                     <h1>
                         ¿Por qué nos gusta tanto Harry Potter?
@@ -65,14 +49,47 @@
                     </p>
                 </div>
             </a>
-            <a href="enlace4.html">
-                <div class="entradas">
-                    <img src="https://live.staticflickr.com/65535/50054905288_e963f176a0_o.jpg" alt="Sinsajo">
+            <a href="reseñas-y-recomendaciones-colee/existo-luego-pienso.html">
+                <div class="entradas descartes">
+                    <div class="etiqueta">
+                        <h3>Recomendación</h3>
+                    </div>
+                    <img src="https://live.staticflickr.com/65535/50102043917_cfbc846092_n.jpg" title="Mujer buceando con peces" alt="Mujer buceando con peces" loading="lazy">
                     <h1>
-                        Los Juegos del Hambre sin Jennifer Lawrence
+                        Existo luego pienso
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi earum eligendi amet! Porro sed voluptate inventore blanditiis
+                        Descartes dijo “pienso luego existo”, pero Karen Nieto tiene muy claro que ella primero existió y luego, con mucha dificultad, aprendió a pensar. 
+                        Ella es la protagonista de La mujer que buceó dentro del corazón del mundo, una historia que te dejará pensando en tu lugar frente al mundo.
+                    </p>
+                </div>
+            </a>
+            <a href="reseñas-y-recomendaciones-colee/frankenstein.html">
+                <div class="entradas">
+                    <div class="etiqueta">
+                        <h3>Reseña</h3>
+                    </div>
+                    <img src="https://live.staticflickr.com/65535/50087924013_2fb5bb9c54.jpg" title="Frankenstein en el bosque con halo de luz" alt="Frankenstein en el bosque con halo de luz" loading="lazy">
+                    <h1>
+                        Frankenstein o el moderno Prometeo
+                    </h1>
+                    <p>
+                        Víctor Frankenstein reunió miembros de los cadáveres más hermosos para crear un ser sublime, 
+                        pero cuando vio los ojos acuosos de la criatura con vida huyó de la habitación, abandonando así a su creación.
+                    </p>
+                </div>
+            </a>
+            <a href="reseñas-y-recomendaciones-colee/harry-potter-por-que-me-enamore.html">
+                <div class="entradas">
+                    <div class="etiqueta">
+                        <h3>Recomendación</h3>
+                    </div>
+                    <img src="https://live.staticflickr.com/65535/50105648073_3dab823913_n.jpg" title="Hogwarts de Harry Potter" alt="Hogwarts de Harry Potter" loading="lazy">
+                    <h1>
+                        De por qué me enamoré de Harry Potter
+                    </h1>
+                    <p>
+                        La saga de HP tiene metáforas sociales, moralejas, un mundo mágico en el que todos quisiéramos vivir, arquetipos y mucho más.
                     </p>
                 </div>
             </a>
@@ -82,30 +99,32 @@
         <div class="leftbox">
                 <div class="colbox">
                     <h3 class="textcol">
-                        Contáctanos en nuestras redes sociales
+                        Contáctame en redes sociales
                     </h3>
                 </div>
             <div class="redes">
-                <div>
-                    <a href="https://www.facebook.com/comunidadcolee" target="_blank">
-                        <img class="facebook" src="img/facebook.png" alt="facebook" loading="lazy">
-                    </a>
-                </div>
-                <div>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img class="instagram" src="img/instagram.png" alt="instagram" loading="lazy">
-                    </a>
-                </div>
-                <div>
-                    <a href="https://twitter.com/ComunidadColee" target="_blank">
-                        <img class="twiter" src="img/twitter.png" alt="twitter" loading="lazy">
-                    </a>
-                </div>
-                <div>
-                    <a href="https://www.youtube.com/channel/UCRSVqLw-4gjFrE8NQUaLbWQ" target="_blank">
-                        <img class="youtube" src="img/youtube.png" alt="youtube" loading="lazy">
-                    </a>
-                </div>
+                <address>
+                    <div>
+                        <a href="https://www.facebook.com/Comunidad-CoLee-113169567121579" target="_blank">
+                            <img class="facebook" src="img/facebook.png" alt="facebook" loading="lazy">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/comunidad_colee/" target="_blank">
+                            <img class="instagram" src="img/instagram.png" alt="instagram" loading="lazy">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com/ColeeComunidad " target="_blank">
+                            <img class="twiter" src="img/twitter.png" alt="twitter" loading="lazy">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCHigu1_TacoSl5Q42WME0-A?view_as=subscriber" target="_blank">
+                            <img class="youtube" src="img/youtube.png" alt="youtube" loading="lazy">
+                        </a>
+                    </div>
+                </address>
             </div>
         </div>
         <div class="rightbox">

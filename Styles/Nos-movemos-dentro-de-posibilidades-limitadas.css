@@ -1,0 +1,17 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50108311793_6d1b1657c1_o.jpg);
+}
+
+.img3 {
+    width: 50%;
+    height: 20%;
+}
+
+@media screen and (max-width:528px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50069450586_3dd47dcb41_o.jpg);
+    }
+    .img3 {
+        width: 70%;
+    }
+}

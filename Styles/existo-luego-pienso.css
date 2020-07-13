@@ -1,0 +1,21 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50102043772_87537a2cbd_o.jpg);
+}
+
+@media screen and (max-width:850px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50102043832_40d0439d8c_o.jpg);
+    }
+}
+
+@media screen and (max-width:750px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50101817656_eae6b106a1_o.jpg);
+    }
+}
+
+@media screen and (max-width:528px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50108878781_50d761c469_o.jpg);
+    }
+}

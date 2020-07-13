@@ -1,0 +1,9 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50088727887_736884f277_o.jpg);
+}
+
+@media screen and (max-width:528px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50088046748_499ec619c0_o.jpg);
+    }
+}

@@ -1,0 +1,22 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50063045321_34daf5e594_o.jpg);
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5%;
+    color: red;
+}
+
+.lista li {
+    line-height: 40px;
+    font-size: large;
+}
+
+@media screen and (max-width:528px) {
+    header {
+        height: 300px;
+        background-image: url(https://live.staticflickr.com/65535/50063536712_c996e6e11f_o.jpg);
+    }
+}
