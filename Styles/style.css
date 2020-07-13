@@ -170,6 +170,7 @@
         left: 2%;
         top: 125px;
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 50%);
+        background-image: url(https://live.staticflickr.com/65535/50108311843_a819247a4f_o.jpg);
         background-size: cover;
         background-position: center;
         border-top-right-radius: 0px;
@@ -183,8 +184,8 @@
         width: 97%;
         height: 200px;
         top: 360px;
-        background-image: url(https://live.staticflickr.com/65535/50076460532_530c0f64f9_z.jpg);
-        background-position: bottom;
+        background-image: url(https://live.staticflickr.com/65535/50108311898_0648041224_o.jpg);
+        background-position: center;
         background-size: cover;
         clip-path: none;
         border-bottom-left-radius: 7%;
@@ -219,12 +220,6 @@
     }
     .title3 {
         text-align: left;
-    }
-}
-
-@media screen and (max-width:470px) {
-    .div2 {
-        background-image: url(https://live.staticflickr.com/65535/50106178036_0a72b4ee8c_o.jpg);
     }
 }
 

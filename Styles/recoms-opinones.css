@@ -200,6 +200,8 @@ section div a {
     }
     .buscador {
         margin-top: 5%;
+        width: 65%;
+        margin-left: 1%;
     }
 }
 
