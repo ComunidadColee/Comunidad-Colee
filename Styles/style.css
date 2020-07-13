@@ -186,7 +186,7 @@
         top: 360px;
         background-image: url(https://live.staticflickr.com/65535/50108311898_0648041224_o.jpg);
         background-position: bottom;
-        background-size: contain;
+        background-size: cover;
         background-repeat: repeat-x;
         background-repeat: repeat-y;
         background-clip: padding-box;
@@ -223,6 +223,23 @@
     }
     .title3 {
         text-align: left;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .div1 {
+        height: 180px;
+    }
+    .div2 {
+        height: 180px;
+        top: 98px;
+    }
+    .div2:hover {
+        font-size: 29px;
+    }
+    .div3 {
+        height: 180px;
+        top: 283px;
     }
 }
 
