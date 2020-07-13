@@ -187,7 +187,7 @@
         background-image: url(https://live.staticflickr.com/65535/50108311898_0648041224_o.jpg);
         background-position: bottom;
         background-size: cover;
-        background-repeat: repeat-y;
+        background-repeat: repeat;
         clip-path: none;
         border-bottom-left-radius: 7%;
         border-bottom-right-radius: 7%;
