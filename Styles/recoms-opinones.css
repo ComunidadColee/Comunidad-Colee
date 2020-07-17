@@ -47,10 +47,15 @@ section {
     background: #4abdac;
     text-align: center;
     padding-bottom: 5%;
+    width: auto;
 }
 
 section div a {
     outline: none;
+}
+
+form {
+    width: auto;
 }
 
 .buscador {
@@ -67,7 +72,6 @@ section div a {
     margin-left: 15%;
     padding-left: 2%;   
 }
-
 
 #lupa {
     border: 0;
@@ -90,18 +94,19 @@ section div a {
     list-style: none;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: rgba(255, 255, 255, 0.582);
-    width: 40%;
-    left: 29%;
+    background: rgba(255, 255, 255, 0.767);
+    width: 39.5%;
+    left: 31%;
     top: 397px;
     font-size: larger;
     display: none;
     padding-bottom: 1%;
+    padding-left: 0px;
 }
 
 #box-search li {
-    margin-top: 3%;
     padding: 3%;
+    margin-left: 0px;
     border-bottom: 1px solid gray;
 }
 
@@ -113,6 +118,34 @@ section div a {
 #box-search li a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width:1125px) {
+    #box-search {
+        top: 390px;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #box-search {
+        top: 383px;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:868px) {
+        #box-search {
+        top: 377px;
+        left: 29%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #box-search {
+        top: 245px;
+        left: 29%;
+    }
 }
 
 .entradasbox {
@@ -235,6 +268,22 @@ section div a {
         width: 65%;
         margin-left: 1%;
     }
+   #box-search {
+        top: 250px;
+        left: 9%;
+        width: 64.5%;
+    }
+    #box-search li a {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:430px) {
+    #box-search {
+        top: 243px;
+        left: 7%;
+        width: 64.5%;
+    }
 }
 
 @media screen and (max-width:461px) {
@@ -254,11 +303,26 @@ section div a {
     }
 }
 
+@media screen and (max-width:328px) {
+    #box-search {
+        top: 240px;
+        left: 6%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #box-search {
+        top: 237px;
+        left: 6%;
+    }
+}
+
 /*-------------------------------------------------Footer-------------------------------------------------------------*/
 
 
 footer {
-    width: 100%;
+    width: auto;
     height: auto;
     background: white;
     padding-top: 3%;

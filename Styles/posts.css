@@ -22,7 +22,7 @@ section {
     text-align: left;
     padding-bottom: 5%;
     margin-top: 3%;
-    margin-right: 3%;
+    margin-right: 4%;
     float: right;
     border: 1px solid transparent;
     width: 83%;
@@ -112,7 +112,7 @@ aside {
     height: auto;
     float: left;
     text-align: center;
-    margin-left: 2%;
+    margin-left: 2.5%;
     outline: none;
     background: #4abdac;
 }
@@ -124,14 +124,14 @@ aside {
 }
 
 .redes div {
-    width: 70%;
+    width: 60px;
     height: auto;
     text-align: center;
     border-radius: 10%;
     padding: 10%;
     margin-top: 20%;
     cursor: pointer;
-    transition: background-color 0.5s;
+    transition: background-color 0.1s;
 }
 
 .redes div:hover {
@@ -141,6 +141,20 @@ aside {
 .redes div img {
     width: 80%;
     height: auto;
+}
+
+.pegajoso-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+@media screen and (max-width:700px) {
+    .pegajoso-fixed {
+        position: relative;
+        z-index: 0;
+        top: auto;
+    }
 }
 
 @media screen and (max-width:1110px) {
