@@ -83,6 +83,38 @@ section div a {
     outline: none;
 }
 
+#box-search {
+    position: absolute;
+    z-index: 8;
+    overflow: hidden;
+    list-style: none;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgba(255, 255, 255, 0.582);
+    width: 40%;
+    left: 29%;
+    top: 397px;
+    font-size: larger;
+    display: none;
+    padding-bottom: 1%;
+}
+
+#box-search li {
+    margin-top: 3%;
+    padding: 3%;
+    border-bottom: 1px solid gray;
+}
+
+#box-search li:hover {
+    background: rgba(163, 163, 163, 0.842);
+    text-decoration: underline;
+}
+
+#box-search li a {
+    text-decoration: none;
+    color: black;
+}
+
 .entradasbox {
     text-align: center;
     margin-left: 2.5%;
