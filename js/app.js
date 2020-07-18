@@ -1,5 +1,3 @@
-//-------------------------------------------------------
-
 inputSearch = document.getElementById("inputSearch");
 box_search = document.getElementById("box-search");
 form = document.getElementById("form");
@@ -11,8 +9,6 @@ function buscador_interno(){
     filter = inputSearch.value.toUpperCase();
     li = box_search.getElementsByTagName("li");
 
-    //Recorriendo elementos a filtrar mediante los "li"
-    
     for (i = 0; i < li.length; i++){
 
         a = li[i].getElementsByTagName("a")[0];
@@ -33,3 +29,4 @@ function buscador_interno(){
 
     }
 }
+

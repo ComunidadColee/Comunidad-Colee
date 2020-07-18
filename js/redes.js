@@ -1,11 +1,9 @@
-$(document).ready(function(){
-    var altura = $('.pegajoso').offset().top;
-
-    $(window).on('scroll', function(){
-        if ($(window).scrollTop() > altura ){
-            $('.pegajoso').addClass('pegajoso-fixed');
-        } else {
-            $('.pegajoso').removeClass('pegajoso-fixed');
-        }
-    });
+var pegajoso = document.getElementById('pegajoso');
+var altura = pegajoso.offsetTop;
+window.addEventListener('scroll', function(){
+    if(window.pageYOffset > altura) {
+        pegajoso.classList.add('pegajoso-fixed');
+    } else {
+        pegajoso.classList.remove('pegajoso-fixed')
+    }
 });
