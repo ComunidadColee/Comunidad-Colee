@@ -1,0 +1,19 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50137347853_9d9ef97ee2_o.jpg);
+}
+
+@media screen and (max-width:840px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50137891416_6771f0b697_o.jpg);
+    }
+}
+
+@media screen and (max-width:528px) {
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50137891391_15f6a80a90_o.jpg);
+    }
+    .img_ultima {
+        width: 80%;
+        height: 210px;
+    }
+}
