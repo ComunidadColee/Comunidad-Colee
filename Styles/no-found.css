@@ -2,6 +2,30 @@ header {
     height: 200px;
 }
 
+table {
+    width: 80%;
+    margin-top: 5%;
+}
+
+.table_titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+td {
+    padding: 2%;
+    text-align: left;
+}
+
+td li a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
 section {
     margin: 0px;
     padding: 3%;
@@ -37,4 +61,24 @@ section ul li a {
 
 section ul li a:hover {
     color:white;
+}
+
+section li a:hover {
+    color:blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width:560px) {
+    section h1, section h2 {
+        font-size: large;
+    }
+    table {
+        width: auto;
+    }
+    .table_titulo {
+        font-size: large;
+    }
+    td li a {
+        font-size: small;
+    }
 }

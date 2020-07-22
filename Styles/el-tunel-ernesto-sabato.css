@@ -1,10 +1,15 @@
 header {
-    background-image: url(https://live.staticflickr.com/65535/50137347853_9d9ef97ee2_o.jpg);
+    background-image: url(https://live.staticflickr.com/65535/50139031512_13f5234828_b.jpg);
+}
+
+.men {
+    width: 40%;
+    display: none;
 }
 
 @media screen and (max-width:840px) {
     header {
-        background-image: url(https://live.staticflickr.com/65535/50137891416_6771f0b697_o.jpg);
+        background-image: url(https://live.staticflickr.com/65535/50138253628_e782867577_o.jpg);
     }
 }
 
@@ -12,8 +17,7 @@ header {
     header {
         background-image: url(https://live.staticflickr.com/65535/50137891391_15f6a80a90_o.jpg);
     }
-    .img_ultima {
-        width: 80%;
-        height: 210px;
+    .men {
+        width: 50%;
     }
 }
