@@ -12,11 +12,15 @@ table {
     color: white;
     font-weight: bold;
     font-size: xx-large;
+    border: none;
+    text-align: center;
 }
 
 td {
     padding: 2%;
     text-align: left;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 td li a {
@@ -73,10 +77,13 @@ section li a:hover {
         font-size: large;
     }
     table {
-        width: auto;
+        width: 100%;
     }
     .table_titulo {
         font-size: large;
+    }
+    td li {
+        list-style: none;
     }
     td li a {
         font-size: small;
