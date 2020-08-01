@@ -283,7 +283,7 @@ footer {
 }
 
 .bandera {
-    width: 100%;
+    width: 70%;
 }
 
 .textcol {
@@ -304,6 +304,8 @@ footer {
     width: 150px;
     float: left;   
     height: auto;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .colbox {
@@ -356,9 +358,10 @@ footer {
 }
 
 .fotobox {
-    width: 200px;
+    width: 150px;
     height: auto;
-    float: left;        
+    float: left;
+    margin-left: 5%;      
 }
 
 .infoyuyabox {
@@ -383,7 +386,7 @@ footer {
     margin-top: 0px;        
 }
 
-.correo, .mail {
+.correo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
     color: black;
@@ -391,11 +394,12 @@ footer {
 
 .mail {
     transition: font-size 0.5s;
+    color: black;
 }
 
 .mail:hover {
     color: blue;
-    font-size: 26px;
+    font-size: 23px;
     padding: none;
     margin: none;
 }

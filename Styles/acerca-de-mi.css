@@ -63,18 +63,32 @@ aside {
 
 .reglas {
     margin-top: 10%;
-    font-size: larger;
     text-align: left;
 }
 
 .reglas li {
     margin-bottom: 5%;
     list-style: decimal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
 }
 
 .correo {
     margin-top: 10%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+.mail {
+    transition: font-size 0.5s;
+    color: black;
+}
+
+.mail:hover {
+    color: blue;
+    font-size: 19px;
+    padding: none;
+    margin: none;
 }
 
 .redes {
