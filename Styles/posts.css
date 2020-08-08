@@ -25,7 +25,7 @@ section {
     margin-right: 4%;
     float: right;
     border: 1px solid transparent;
-    width: 83%;
+    width: 85%;
     height: auto;
 }
 
@@ -63,8 +63,8 @@ article div {
 }
 
 article .image {
-    width: 50%;
-    margin: 5%;
+    width: 40%;
+    margin: 3%;
 }
 
 .video {
@@ -93,7 +93,7 @@ article h2 {
 }
 
 h3 {
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 h5 {
@@ -117,10 +117,11 @@ h5 {
 /*----------------------------------------------Aside----------------------------------------*/
 
 aside {
-    width: 10%;
+    width: 8.2%;
     height: auto;
-    text-align: center;
     margin-left: 2.5%;
+    margin-top: 15px;
+    padding-top: 15px;
     outline: none;
     background: #4abdac;
 }
@@ -128,16 +129,16 @@ aside {
 .redes {
     width: 90%;
     height: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .redes div {
-    width: 60px;
+    width: 45px;
     height: auto;
     text-align: center;
     border-radius: 10%;
     padding: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
     cursor: pointer;
     transition: background-color 0.1s;
 }
@@ -159,6 +160,26 @@ aside {
 
 .sharebotons {
     margin-top: 5%;
+}
+
+.comparte, .visita {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: none;
+}
+
+.visita {
+    margin-left: 5%;
+}
+
+@media screen and (max-width:910px) {
+    section {
+        width: 82%;
+    }
+    aside {
+        width: 11%;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -201,29 +222,28 @@ aside {
         width: 100%;
         margin: 0px;
         padding: 0px;
+        position: relative;
     }
     .video {
         margin-bottom: 20%;
     }
     .redes div {
         display: inline-block;
-        width: auto;
-        padding: 4%;
+        width: 32px;
+        height: 30px;
+        padding: 2%;
         margin-top: 0px;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     .redes div img {
-        width: 50px;
+        width: 100%;
+    }
+    .comparte, .visita {
+        display: block;
     }
 }
 
 @media screen and (max-width:528px) {
-    .redes div {
-        padding: 2%;
-    }
-    .redes div img {
-        width: 40px;
-    }
     header {
         height: 300px;
         background-size: 100% 70%;
@@ -238,5 +258,8 @@ aside {
     }
     .cc {
         margin-top: 6%;
+    }
+    .comparte, .visita {
+        font-size: small;
     }
 }
