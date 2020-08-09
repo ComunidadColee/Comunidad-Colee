@@ -337,7 +337,7 @@ footer {
     float: right;
     overflow: hidden;
     margin-right: 5%;
-    margin-top: 1%;  
+    margin-top: 1%;
 }
 
 .foto {
@@ -347,7 +347,8 @@ footer {
 .fotobox {
     width: 210px;
     height: auto;
-    float: left;      
+    float: left;
+    margin-top: 12%;
 }
 
 .infoyuyabox {
