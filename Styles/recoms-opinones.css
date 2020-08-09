@@ -341,7 +341,7 @@ footer {
  .colbox {
     width: 100%;
     height: auto;
-    float: left
+    float: left;
 }
  
  .textcol {
@@ -377,7 +377,7 @@ footer {
      margin: 5%;
      text-align: center;
      border-radius: 15%;
-     transition: background-color 0.5s;
+     transition: background-color 0.2s;
     }
     
     .redes div:hover {
@@ -413,16 +413,17 @@ footer {
     
     .colbox {
          display: inline;
-         margin: 0px;
+         margin-left: 20px;
      }
      .textcol {
-         font-size: 20px;
+         font-size: 15px;
          text-align: left;
      }
      .redes {
          border: none;
          margin: 0px;
          display: inline-block;
+         padding: 0%;
      }
      .rightbox {
         width: 100%; 

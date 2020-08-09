@@ -436,13 +436,15 @@ footer {
     .colbox {
         display: none;
     }
-
+    .banderabox {
+        width: 75%;
+    }
     .leftbox .contenedor2 .banderabox .bandera {
         width: 70%;
     }
 
-    .rightbox .fotobox .foto {
-        width: 60%;
+    .fotobox  {
+        width: 95%;
     }
 
     .rightbox .fotobox {
@@ -452,7 +454,7 @@ footer {
     .leftbox .redes {
         display: block;
         width: 50%;
-        margin-top: 40%;
+        margin-top: 20%;
         margin-left: 20%;
     }
 

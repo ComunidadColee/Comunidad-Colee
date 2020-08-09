@@ -88,4 +88,7 @@ section li a:hover {
     td li a {
         font-size: small;
     }
+    .oplist li {
+        margin-bottom: 10%;
+    }
 }
