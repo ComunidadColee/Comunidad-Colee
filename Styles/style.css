@@ -1,13 +1,3 @@
-.logo {
-    width: 100px;
-    height: 70px;
-    position: absolute;
-    z-index: 3;
-    top: 80%;
-    left: 60%;
-    filter: hue-rotate(320deg);
-}
-
 .contenedor1 {
     width: 100%;
     height: 650px;
@@ -350,7 +340,8 @@ footer {
     height: auto;
     float: right;
     overflow: hidden;
-    margin-right: 5%;       
+    margin-right: 5%;
+    margin-top: 1%;    
 }
 
 .foto {
@@ -358,17 +349,16 @@ footer {
 }
 
 .fotobox {
-    width: 150px;
+    width: 210px;
     height: auto;
-    float: left;
-    margin-left: 5%;      
+    float: left;      
 }
 
 .infoyuyabox {
     width: 55%;
     height: auto;
     float: right;
-    overflow: hidden;       
+    overflow: hidden;     
 }
 
 .infoyuyabox p {

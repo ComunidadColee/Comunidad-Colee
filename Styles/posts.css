@@ -80,11 +80,18 @@ iframe {
     height: 90%;
 }
 
-.dejanos {
-    margin-top: 10%;
+.dejanos, .comparte {
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+}
+
+.dejanos {
+    margin-top: 10%;
+}
+
+.comparte {
+    margin-top: 2%;
 }
 
 article h2 {
@@ -94,6 +101,7 @@ article h2 {
 
 h3 {
     margin-top: 3%;
+    text-align: left;
 }
 
 h5 {
@@ -107,6 +115,7 @@ h5 {
 .cc {
     width: 120px;
     float: right;
+    margin-top: 2%;
 }
 
 .cc img {
@@ -158,36 +167,12 @@ aside {
     top: 0;
 }
 
-.sharebotons {
-    margin-top: 5%;
-}
-
-.comparte, .visita {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    display: none;
-}
-
-.visita {
-    margin-left: 5%;
-    margin-top: 7%;
-}
-
 @media screen and (max-width:910px) {
     section {
         width: 82%;
     }
     aside {
         width: 11%;
-    }
-}
-
-@media screen and (max-width:700px) {
-    .pegajoso-fixed {
-        position: relative;
-        z-index: 0;
-        top: auto;
     }
 }
 
@@ -225,6 +210,7 @@ aside {
         margin: 0px;
         padding: 0px;
         position: relative;
+        display: none;
     }
     .video {
         margin-bottom: 20%;
@@ -239,9 +225,6 @@ aside {
     }
     .redes div img {
         width: 100%;
-    }
-    .comparte, .visita {
-        display: block;
     }
 }
 
@@ -263,8 +246,11 @@ aside {
     }
     .cc {
         margin-top: 6%;
+        margin-bottom: 10%;
+        clear: both;
     }
-    .comparte, .visita {
-        font-size: small;
+    .comparte, .dejanos {
+        font-size: medium;
+        clear: both;
     }
 }
