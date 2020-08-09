@@ -331,17 +331,13 @@ footer {
     background-color: rgba(255, 255, 255, 0.726);
 }
 
-.correobox2 {
-    display: none;
-}
-
 .rightbox {
     width: 39%;
     height: auto;
     float: right;
     overflow: hidden;
     margin-right: 5%;
-    margin-top: 1%;    
+    margin-top: 1%;  
 }
 
 .foto {
@@ -369,7 +365,7 @@ footer {
     font-size: medium;      
 }
 
-.correobox, .correobox2 {
+.correobox {
     width: auto;
     float: left;
     clear: left;
@@ -423,39 +419,55 @@ footer {
     }
 }
 
-@media screen and (max-width:611px) {
-    .correobox2 {
-        display: inline;
-    }
-    .correobox {
-        display: none;
-    }
-}
-
 @media screen and (max-width:513px) {
     .colbox {
         display: none;
     }
     .banderabox {
         width: 75%;
+        margin-left: 20%;
     }
     .leftbox .contenedor2 .banderabox .bandera {
         width: 70%;
     }
-
     .fotobox  {
         width: 95%;
     }
-
+    .leftbox {
+        margin-left: 0px;
+    }
     .rightbox .fotobox {
         float: none;
+        width: 100%;
     }
-
+    .rightbox {
+        margin-right: 45px;
+    }
     .leftbox .redes {
         display: block;
         width: 50%;
-        margin-top: 20%;
-        margin-left: 20%;
+        margin-top: 5%;
+        margin-left: 0px;
+        padding: 0px;
+        margin-bottom: 50%;
     }
-
+    .redes div {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .infoyuyabox {
+        position: absolute;
+        width: 70%;
+        right: 2%;
+    }
+}
+@media screen and (max-width:340px) {
+    .infoyuyabox h2 {
+        font-size: larger;
+    }
+}
+@media screen and (max-width:309px) {
+    .infoyuyabox p, .correo {
+        font-size: small;
+    }
 }

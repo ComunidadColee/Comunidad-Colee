@@ -63,7 +63,7 @@ article div {
 }
 
 article .image {
-    width: 40%;
+    width: 42%;
     margin: 3%;
 }
 
@@ -100,8 +100,8 @@ article h2 {
 }
 
 h3 {
-    margin-top: 3%;
-    text-align: left;
+    margin-top: 5%;
+    text-align: center;
 }
 
 h5 {
@@ -235,7 +235,7 @@ aside {
         background-position: top;
     }
     article .image {
-        width: 70%;
+        width: 75%;
     }
     .video {
         margin-left: auto;
