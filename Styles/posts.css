@@ -2,6 +2,7 @@ body {
     z-index: 2;
     background: #4abdac;
     padding: 0px;
+    padding-bottom: 10px;
 }
 
 header {

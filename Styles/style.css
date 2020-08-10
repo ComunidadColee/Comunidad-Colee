@@ -403,7 +403,8 @@ footer {
         float: none;
     }
     .fotobox {
-        margin-bottom: 7%;
+        margin-bottom: 1%;
+        margin-top: 2%;
     }
 }
 
