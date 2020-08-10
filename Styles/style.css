@@ -324,11 +324,11 @@ footer {
     margin: 5%;
     text-align: center;
     border-radius: 15%;
-    transition: background-color 0.5s;
+    transition: background-color 0.2s;
 }
 
 .redes div:hover {
-    background-color: rgba(255, 255, 255, 0.726);
+    background-color: rgba(255, 255, 255, 0.575);
 }
 
 .rightbox {
@@ -424,15 +424,11 @@ footer {
     .colbox {
         display: none;
     }
-    .banderabox {
-        width: 75%;
-        margin-left: 20%;
+    .banderabox img {
+        display: none;
     }
     .leftbox .contenedor2 .banderabox .bandera {
         width: 70%;
-    }
-    .fotobox  {
-        width: 95%;
     }
     .leftbox {
         margin-left: 0px;
@@ -442,15 +438,14 @@ footer {
         width: 100%;
     }
     .rightbox {
-        margin-right: 45px;
+        margin-right: 60px;
     }
     .leftbox .redes {
         display: block;
         width: 50%;
-        margin-top: 5%;
         margin-left: 0px;
         padding: 0px;
-        margin-bottom: 50%;
+        margin-bottom: 100%;
     }
     .redes div {
         margin-left: 0px;
@@ -459,7 +454,7 @@ footer {
     .infoyuyabox {
         position: absolute;
         width: 70%;
-        right: 2%;
+        right: 3%;
     }
 }
 @media screen and (max-width:340px) {
