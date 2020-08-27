@@ -1,0 +1,15 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50276470711_968b83364b_o.png);
+}
+
+@media screen and (max-width:970px){
+    header{
+        background-image: url(../img/Chico\ malo\ medium.png);
+    }
+}
+
+@media screen and (max-width:500px){
+    header{
+        background-image: url(https://live.staticflickr.com/65535/50276626317_aac0ddf9be_o.png);
+    }
+}
