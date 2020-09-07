@@ -17,7 +17,7 @@ header {
     word-wrap: break-word;
     position: absolute; /*ponerle absolute a cada titulo para que la barra se posisione bien*/
     text-align: center;
-    width: 100%;
+    width: 99%;
     height: auto;
     top: 50px;
     color:white;
