@@ -1,0 +1,33 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50314304831_abbcf39b1b_o.jpg);
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+    color: red;
+}
+
+@media screen and (max-width: 958px){
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50316966342_378d284b7b_o.jpg);
+    }
+}
+
+@media screen and (max-width: 828px){
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50316117083_3c728199bd_o.jpg);
+    }
+}
+
+@media screen and (max-width: 680px){
+    header {
+        background-image: url(https://live.staticflickr.com/65535/50316117033_42ebe106b7_o.jpg);
+        position: relative;
+        padding-top: 100px;
+    }
+    label {
+        top: 3%;
+    }
+}
