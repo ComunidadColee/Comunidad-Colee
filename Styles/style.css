@@ -7,7 +7,7 @@
 }
 
 .div1 {
-    background-image: url(https://live.staticflickr.com/65535/50313794621_fc0bebe00d_o.jpg);
+    background-image: url(https://live.staticflickr.com/65535/50317179358_7510d38ec2_o.jpg);
     background-size: 75% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -15,7 +15,8 @@
     width: 73%;
     height: 600px;
     position: relative;
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
     clip-path: polygon(0 0, 66.7% 0, 100% 100%, 0 100%);
     margin: 1%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -46,7 +47,8 @@
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 7px rgb(7, 7, 7);
     padding-left: 6%;
     cursor: pointer;
     outline: none;
@@ -63,7 +65,6 @@
     background-position: right;
     width: 35.5%;
     height: 294px;
-    color: black;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 33.33% 100%);
     position: absolute;
     top: 318px;
@@ -71,7 +72,8 @@
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
     padding-left: 6%;
     cursor: pointer;
     outline: none;
@@ -152,7 +154,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
         border-bottom-left-radius: 0px;
         border-top-right-radius: 7%;
-        background-image: url(https://live.staticflickr.com/65535/50313971887_28ab710846_o.jpg);
+        background-image: url(https://live.staticflickr.com/65535/50317846146_16b503dc51_o.jpg);
         background-size: cover;
         background-position: top;
     }
