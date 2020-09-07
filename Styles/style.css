@@ -1,13 +1,3 @@
-.logo {
-    width: 100px;
-    height: 70px;
-    position: absolute;
-    z-index: 3;
-    top: 80%;
-    left: 60%;
-    filter: hue-rotate(320deg);
-}
-
 .contenedor1 {
     width: 100%;
     height: 650px;
@@ -17,7 +7,7 @@
 }
 
 .div1 {
-    background-image: url(https://live.staticflickr.com/65535/50073760887_410079252b_z.jpg);
+    background-image: url(https://live.staticflickr.com/65535/50313794621_fc0bebe00d_o.jpg);
     background-size: 75% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -25,7 +15,7 @@
     width: 73%;
     height: 600px;
     position: relative;
-    color: white;
+    color: black;
     clip-path: polygon(0 0, 66.7% 0, 100% 100%, 0 100%);
     margin: 1%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -42,7 +32,7 @@
 }
 
 .div2 {
-    background-image: url(https://live.staticflickr.com/65535/50072822358_f16d42fb6d_z.jpg);
+    background-image: url(https://live.staticflickr.com/65535/50313772036_96b61b1bf2_o.jpg);
     background-size: 70% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -66,7 +56,7 @@
 }
 
 .div3 {
-    background-image: url(https://live.staticflickr.com/65535/50076460532_530c0f64f9_z.jpg);
+    background-image: url(https://live.staticflickr.com/65535/50313971987_b15337f8bc_o.jpg);
     background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -162,7 +152,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
         border-bottom-left-radius: 0px;
         border-top-right-radius: 7%;
-        background-image: url(https://live.staticflickr.com/65535/50076682946_f15bf902aa_o.jpg);
+        background-image: url(https://live.staticflickr.com/65535/50313971887_28ab710846_o.jpg);
         background-size: cover;
         background-position: top;
     }
@@ -173,7 +163,7 @@
         left: 2%;
         top: 125px;
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 50%);
-        background-image: url(https://live.staticflickr.com/65535/50108311843_a819247a4f_o.jpg);
+        background-image: url(https://live.staticflickr.com/65535/50313972032_18b0a8e414_o.jpg);
         background-size: cover;
         background-position: center;
         border-top-right-radius: 0px;
@@ -186,8 +176,7 @@
     .div3 {
         width: 97%;
         height: 200px;
-        top: 360px;
-        background-image: url(https://live.staticflickr.com/65535/50108311898_0648041224_o.jpg);
+        top: 357px;
         background-position: bottom;
         background-size: cover;
         background-repeat: repeat-x;
@@ -283,7 +272,7 @@ footer {
 }
 
 .bandera {
-    width: 100%;
+    width: 70%;
 }
 
 .textcol {
@@ -304,6 +293,8 @@ footer {
     width: 150px;
     float: left;   
     height: auto;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .colbox {
@@ -332,15 +323,11 @@ footer {
     margin: 5%;
     text-align: center;
     border-radius: 15%;
-    transition: background-color 0.5s;
+    transition: background-color 0.2s;
 }
 
 .redes div:hover {
-    background-color: rgba(255, 255, 255, 0.726);
-}
-
-.correobox2 {
-    display: none;
+    background-color: rgba(255, 255, 255, 0.575);
 }
 
 .rightbox {
@@ -348,7 +335,8 @@ footer {
     height: auto;
     float: right;
     overflow: hidden;
-    margin-right: 5%;       
+    margin-right: 5%;
+    margin-top: 1%;
 }
 
 .foto {
@@ -356,16 +344,17 @@ footer {
 }
 
 .fotobox {
-    width: 200px;
+    width: 210px;
     height: auto;
-    float: left;        
+    float: left;
+    margin-top: 12%;
 }
 
 .infoyuyabox {
     width: 55%;
     height: auto;
     float: right;
-    overflow: hidden;       
+    overflow: hidden;     
 }
 
 .infoyuyabox p {
@@ -376,14 +365,14 @@ footer {
     font-size: medium;      
 }
 
-.correobox, .correobox2 {
+.correobox {
     width: auto;
     float: left;
     clear: left;
     margin-top: 0px;        
 }
 
-.correo, .mail {
+.correo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
     color: black;
@@ -391,11 +380,12 @@ footer {
 
 .mail {
     transition: font-size 0.5s;
+    color: black;
 }
 
 .mail:hover {
     color: blue;
-    font-size: 26px;
+    font-size: 23px;
     padding: none;
     margin: none;
 }
@@ -412,7 +402,8 @@ footer {
         float: none;
     }
     .fotobox {
-        margin-bottom: 7%;
+        margin-bottom: 1%;
+        margin-top: 2%;
     }
 }
 
@@ -429,37 +420,50 @@ footer {
     }
 }
 
-@media screen and (max-width:611px) {
-    .correobox2 {
-        display: inline;
-    }
-    .correobox {
-        display: none;
-    }
-}
-
 @media screen and (max-width:513px) {
     .colbox {
         display: none;
     }
-
+    .banderabox img {
+        display: none;
+    }
     .leftbox .contenedor2 .banderabox .bandera {
         width: 70%;
     }
-
-    .rightbox .fotobox .foto {
-        width: 60%;
+    .leftbox {
+        margin-left: 0px;
     }
-
     .rightbox .fotobox {
         float: none;
+        width: 100%;
     }
-
+    .rightbox {
+        margin-right: 60px;
+    }
     .leftbox .redes {
         display: block;
         width: 50%;
-        margin-top: 40%;
-        margin-left: 20%;
+        margin-left: 0px;
+        padding: 0px;
+        margin-bottom: 100%;
     }
-
+    .redes div {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .infoyuyabox {
+        position: absolute;
+        width: 70%;
+        right: 3%;
+    }
+}
+@media screen and (max-width:340px) {
+    .infoyuyabox h2 {
+        font-size: larger;
+    }
+}
+@media screen and (max-width:309px) {
+    .infoyuyabox p, .correo {
+        font-size: small;
+    }
 }

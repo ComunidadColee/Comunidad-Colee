@@ -47,10 +47,15 @@ section {
     background: #4abdac;
     text-align: center;
     padding-bottom: 5%;
+    width: auto;
 }
 
 section div a {
     outline: none;
+}
+
+form {
+    width: auto;
 }
 
 .buscador {
@@ -68,7 +73,6 @@ section div a {
     padding-left: 2%;   
 }
 
-
 #lupa {
     border: 0;
     width: 50px;
@@ -83,12 +87,73 @@ section div a {
     outline: none;
 }
 
+#box-search {
+    position: absolute;
+    z-index: 8;
+    overflow: hidden;
+    list-style: none;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgba(255, 255, 255, 0.767);
+    width: 39.5%;
+    left: 31%;
+    top: 397px;
+    font-size: larger;
+    display: none;
+    padding-bottom: 1%;
+    padding-left: 0px;
+}
+
+#box-search li {
+    padding: 3%;
+    margin-left: 0px;
+    border-bottom: 1px solid gray;
+}
+
+#box-search li:hover {
+    background: rgba(163, 163, 163, 0.842);
+    text-decoration: underline;
+}
+
+#box-search li a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:1125px) {
+    #box-search {
+        top: 390px;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #box-search {
+        top: 383px;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width:868px) {
+        #box-search {
+        top: 377px;
+        left: 29%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #box-search {
+        top: 245px;
+        left: 29%;
+    }
+}
+
 .entradasbox {
     text-align: center;
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 5%;
-    width: 95%;
+    width: auto;
     height: 100%;
 }
 
@@ -203,6 +268,22 @@ section div a {
         width: 65%;
         margin-left: 1%;
     }
+   #box-search {
+        top: 250px;
+        left: 9%;
+        width: 64.5%;
+    }
+    #box-search li a {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:430px) {
+    #box-search {
+        top: 243px;
+        left: 7%;
+        width: 64.5%;
+    }
 }
 
 @media screen and (max-width:461px) {
@@ -222,27 +303,50 @@ section div a {
     }
 }
 
+@media screen and (max-width:328px) {
+    #box-search {
+        top: 240px;
+        left: 6%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #box-search {
+        top: 237px;
+        left: 6%;
+    }
+}
+
 /*-------------------------------------------------Footer-------------------------------------------------------------*/
 
 
 footer {
-    width: 100%;
+    width: auto;
     height: auto;
     background: white;
-    padding-top: 3%;
+    padding-top: 2%;
     overflow: hidden;
  }
  
  .leftbox {
      width: 35%;
      float: left;
-     margin-left: 10%;   
+     margin-left: 5%; 
+     margin-top: 3%;
+     margin-bottom: 3%; 
      height: auto;
  }
+
+ .colbox {
+    width: 100%;
+    height: auto;
+    float: left;
+}
  
  .textcol {
      font-family: Helvetica, Arial, sans-serif;
-     font-size: 30px; 
+     font-size: 20px; 
      height: auto;
      width: 100%;
      margin: 0px;
@@ -250,15 +354,9 @@ footer {
      text-align: center;
  }
  
- .colbox {
-     width: auto;
-     height: auto;
-     float: left;
- }
- 
  .facebook, .instagram, .twiter, .youtube {
-     width: 50px;
-     height: 50px;
+     width: 80%;
+     height: auto;
      margin: 4%;
  }
  
@@ -267,19 +365,19 @@ footer {
      height: auto;
      display: inline-block;
      margin-top: 0px;
-     border-bottom: 1px solid #4abdac;
+     padding-left: 7%;
      border-bottom-right-radius: 10%;
      border-bottom-left-radius: 10%;
  }
  
  .leftbox .redes div {
      display: inline-block;
-     width: 60px;
-     height: 60px;
+     width: 50px;
+     height: 50px;
      margin: 5%;
      text-align: center;
      border-radius: 15%;
-     transition: background-color 0.5s;
+     transition: background-color 0.2s;
     }
     
     .redes div:hover {
@@ -287,7 +385,7 @@ footer {
     }
  
  .rightbox {
-     width: 30%;
+     width: 23%;
      height: auto;
      float: right;
      overflow: hidden;
@@ -315,16 +413,17 @@ footer {
     
     .colbox {
          display: inline;
-         margin: 0px;
+         margin-left: 20px;
      }
      .textcol {
-         font-size: 20px;
+         font-size: 15px;
          text-align: left;
      }
      .redes {
          border: none;
          margin: 0px;
          display: inline-block;
+         padding: 0%;
      }
      .rightbox {
         width: 100%; 

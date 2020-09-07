@@ -4,7 +4,7 @@ header {
 
 .subtitulo {
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 5%;
     color: red;
 }
@@ -16,7 +16,6 @@ header {
 
 @media screen and (max-width:528px) {
     header {
-        height: 300px;
         background-image: url(https://live.staticflickr.com/65535/50063536712_c996e6e11f_o.jpg);
     }
 }

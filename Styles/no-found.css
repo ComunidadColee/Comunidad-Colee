@@ -1,0 +1,94 @@
+header {
+    height: 200px;
+}
+
+table {
+    width: 80%;
+    margin-top: 5%;
+}
+
+.table_titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    border: none;
+    text-align: center;
+}
+
+td {
+    padding: 2%;
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+td li a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+section {
+    margin: 0px;
+    padding: 3%;
+}
+
+section h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: x-large;
+    margin-top: 5%;
+}
+
+section ul {
+    text-align: left;
+    margin-top: 4%;
+}
+
+section ul li {
+    margin-bottom: 2%;
+}
+
+section ul li a {
+    text-decoration: underline;
+    color: black;
+    font-size: larger;
+}
+
+section ul li a:hover {
+    color:white;
+}
+
+section li a:hover {
+    color:blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width:560px) {
+    section h1, section h2 {
+        font-size: large;
+    }
+    table {
+        width: 100%;
+    }
+    .table_titulo {
+        font-size: large;
+    }
+    td li {
+        list-style: none;
+    }
+    td li a {
+        font-size: small;
+    }
+    .oplist li {
+        margin-bottom: 10%;
+    }
+}
