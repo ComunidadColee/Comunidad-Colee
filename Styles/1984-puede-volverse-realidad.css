@@ -26,7 +26,7 @@ header {
     header {
         background-image: url(https://live.staticflickr.com/65535/50316117033_42ebe106b7_o.jpg);
         position: relative;
-        padding-top: 100px;
+        /*padding-top: 100px;*/
     }
     label {
         top: 3%;
