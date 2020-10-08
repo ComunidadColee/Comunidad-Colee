@@ -267,10 +267,12 @@ footer {
 }
 
 .leftbox {
-    width: 39%;
+    width: 50%;
     float: left;
-    margin-left: 5%;   
+    margin-left: 3%;   
     height: auto;
+    margin-bottom: 80px;
+    margin-top: 30px;
 }
 
 .bandera {
@@ -288,7 +290,7 @@ footer {
     width: 100%;
     height: auto;
     display: inline-block;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .banderabox {
@@ -318,7 +320,7 @@ footer {
     height: auto;
 }
 
-.leftbox .redes div {
+.rightbox .redes div {
     display: inline-block;
     width: 60px;
     height: 60px;
@@ -337,8 +339,7 @@ footer {
     height: auto;
     float: right;
     overflow: hidden;
-    margin-right: 5%;
-    margin-top: 1%;
+    margin-right: 3%;
 }
 
 .foto {
@@ -349,11 +350,11 @@ footer {
     width: 210px;
     height: auto;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
 }
 
 .infoyuyabox {
-    width: 55%;
+    width: 65%;
     height: auto;
     float: right;
     overflow: hidden;     
@@ -407,6 +408,9 @@ footer {
         margin-bottom: 1%;
         margin-top: 2%;
     }
+    .leftbox {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width:1070px) {
@@ -429,25 +433,27 @@ footer {
     .banderabox img {
         display: none;
     }
-    .leftbox .contenedor2 .banderabox .bandera {
+    .rightbox .contenedor2 .banderabox .bandera {
         width: 70%;
     }
     .leftbox {
-        margin-left: 0px;
+        padding-bottom: 100%;
     }
-    .rightbox .fotobox {
+    .leftbox .fotobox {
         float: none;
         width: 100%;
     }
     .rightbox {
-        margin-right: 60px;
+        margin-right: 0px;
+        margin-top: -10%;
+        bottom: 20%;
     }
-    .leftbox .redes {
+    .rightbox .redes {
         display: block;
         width: 50%;
-        margin-left: 0px;
         padding: 0px;
-        margin-bottom: 100%;
+        margin-bottom: 0;
+        margin-left: 40%;
     }
     .redes div {
         margin-left: 0px;
@@ -456,7 +462,7 @@ footer {
     .infoyuyabox {
         position: absolute;
         width: 70%;
-        right: 3%;
+        right: 25%;
     }
 }
 @media screen and (max-width:340px) {
