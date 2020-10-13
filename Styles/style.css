@@ -6,8 +6,12 @@
     padding: auto;
 }
 
+body {
+    background: #4abdac;
+}
+
 .div1 {
-    background-image: url(https://live.staticflickr.com/65535/50313794621_fc0bebe00d_o.jpg);
+    background-image: url(https://live.staticflickr.com/65535/50317179358_7510d38ec2_o.jpg);
     background-size: 75% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -15,7 +19,8 @@
     width: 73%;
     height: 600px;
     position: relative;
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
     clip-path: polygon(0 0, 66.7% 0, 100% 100%, 0 100%);
     margin: 1%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -46,7 +51,8 @@
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 7px rgb(7, 7, 7);
     padding-left: 6%;
     cursor: pointer;
     outline: none;
@@ -63,7 +69,6 @@
     background-position: right;
     width: 35.5%;
     height: 294px;
-    color: black;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 33.33% 100%);
     position: absolute;
     top: 318px;
@@ -71,7 +76,8 @@
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
     padding-left: 6%;
     cursor: pointer;
     outline: none;
@@ -152,7 +158,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
         border-bottom-left-radius: 0px;
         border-top-right-radius: 7%;
-        background-image: url(https://live.staticflickr.com/65535/50313971887_28ab710846_o.jpg);
+        background-image: url(https://live.staticflickr.com/65535/50317846146_16b503dc51_o.jpg);
         background-size: cover;
         background-position: top;
     }
@@ -200,12 +206,12 @@
         box-shadow: inset 0px -20px 15px #ffffff93;
     }
     .title1 {
-        font-size: 27px;
+        font-size: 30px;
         font-weight: bolder;
         margin-left: 1%;
     }
     .title1:hover {
-        font-size: 28px;
+        font-size: 31px;
     }
     .title2, .title3 {
         font-size: 35px;
@@ -240,11 +246,11 @@
 
 @media screen and (max-width:420px) {
     .title1 {
-        font-size: 19px;
+        font-size: 25px;
         font-weight: bolder;
     }
     .title1:hover {
-        font-size: 21px;
+        font-size: 27px;
     }
     .title2, .title3 {
         font-size: 25px;
@@ -265,10 +271,12 @@ footer {
 }
 
 .leftbox {
-    width: 39%;
+    width: 50%;
     float: left;
-    margin-left: 5%;   
+    margin-left: 3%;   
     height: auto;
+    margin-bottom: 80px;
+    margin-top: 30px;
 }
 
 .bandera {
@@ -286,7 +294,7 @@ footer {
     width: 100%;
     height: auto;
     display: inline-block;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .banderabox {
@@ -316,7 +324,7 @@ footer {
     height: auto;
 }
 
-.leftbox .redes div {
+.rightbox .redes div {
     display: inline-block;
     width: 60px;
     height: 60px;
@@ -335,8 +343,7 @@ footer {
     height: auto;
     float: right;
     overflow: hidden;
-    margin-right: 5%;
-    margin-top: 1%;
+    margin-right: 3%;
 }
 
 .foto {
@@ -347,14 +354,18 @@ footer {
     width: 210px;
     height: auto;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
 }
 
 .infoyuyabox {
-    width: 55%;
+    width: 65%;
     height: auto;
     float: right;
     overflow: hidden;     
+}
+
+.infoyuyabox h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .infoyuyabox p {
@@ -405,6 +416,9 @@ footer {
         margin-bottom: 1%;
         margin-top: 2%;
     }
+    .leftbox {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width:1070px) {
@@ -427,25 +441,34 @@ footer {
     .banderabox img {
         display: none;
     }
-    .leftbox .contenedor2 .banderabox .bandera {
+    .rightbox .contenedor2 .banderabox .bandera {
         width: 70%;
     }
     .leftbox {
-        margin-left: 0px;
+        padding-bottom: 100%;
+        margin-top: -5%;
     }
-    .rightbox .fotobox {
+    .leftbox .correo {
+        font-size: medium;
+    }
+    .leftbox .correo .mail {
+        font-size: medium;
+    }
+    .leftbox .fotobox {
         float: none;
         width: 100%;
     }
     .rightbox {
-        margin-right: 60px;
+        margin-right: 0px;
+        margin-top: 21%;
+        bottom: 20%;
     }
-    .leftbox .redes {
+    .rightbox .redes {
         display: block;
         width: 50%;
-        margin-left: 0px;
         padding: 0px;
-        margin-bottom: 100%;
+        margin-bottom: 0;
+        margin-left: 40%;
     }
     .redes div {
         margin-left: 0px;
@@ -454,12 +477,12 @@ footer {
     .infoyuyabox {
         position: absolute;
         width: 70%;
-        right: 3%;
+        right: 25%;
     }
 }
 @media screen and (max-width:340px) {
     .infoyuyabox h2 {
-        font-size: larger;
+        font-size: 17px;
     }
 }
 @media screen and (max-width:309px) {
