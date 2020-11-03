@@ -1,0 +1,63 @@
+header {
+    background-image: url(https://live.staticflickr.com/65535/50563576698_f359c8f9f0_o.jpg);
+}
+
+.parr {
+    margin-bottom: 10%;
+}
+
+.libros {
+    width: 100%;
+    padding-bottom: 10%;
+    display: inline-block;
+}
+
+.portada {
+    width: 35%;
+    height: auto;
+    float: left;
+}
+
+.portada img {
+    width: 100%;
+    height: auto;
+}
+
+.textContent, .titulos {
+    width: 63%;
+    text-align: left;
+    float: right;
+}
+
+.titulos h3 {
+    text-align: left;
+}
+
+@media screen and (max-width: 800px){
+    .libros {
+        padding-bottom: 20%;
+    }
+    .textContent {
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+    .portada {
+        margin-right: 7px;
+    }
+    .titulos {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 707px){
+    header{
+        background-image: url(https://live.staticflickr.com/65535/50564472647_ca60ee239e_o.jpg);
+    }
+}
+
+@media screen and (max-width:500px){
+    header{
+        background-image: url(https://live.staticflickr.com/65535/50563598938_8e8f07bddc_o.jpg);
+    }
+}
